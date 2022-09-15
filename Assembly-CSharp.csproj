@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4E275CAE-C61A-EDC7-35D3-634A1B7DC0D4}</ProjectGuid>
+    <ProjectGuid>{25A10F1D-4367-FD81-B4C2-9995071248BE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -84,6 +84,8 @@
     <Compile Include="Assets\ProjectBase\Event\EventCenter.cs" />
     <Compile Include="Assets\ProjectBase\Input\InputMgr.cs" />
     <Compile Include="Assets\ProjectBase\Pool\PoolMgr.cs" />
+    <Compile Include="Assets\My\AStar\AStarManager.cs" />
+    <Compile Include="Assets\My\AStar\AstarNode.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
