@@ -1,0 +1,4613 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ea11b0a3d274d4cb70ba27bc426f7cf, type: 3}
+  m_Name: sceneObjGroup
+  m_EditorClassIdentifier: 
+  SceneObjects:
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 70fbff8150321794f8532fef4f4d7c98, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.66784585
+      e01: 0.016841084
+      e02: -0.744109
+      e03: 63.5
+      e10: 0.037519746
+      e11: 0.9977112
+      e12: 0.05625513
+      e13: 22.06
+      e20: 0.74335325
+      e21: -0.06548854
+      e22: 0.6656855
+      e23: 30.730001
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_path_01b (6)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 87dc0b67e5fe70f40a31e17b0c0058b4, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.8500954
+      e01: 0
+      e02: 0.5266288
+      e03: -20.199997
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 19.9
+      e20: -0.5266288
+      e21: 0
+      e22: 0.8500954
+      e23: -98.30001
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_02
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 87dc0b67e5fe70f40a31e17b0c0058b4, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.9987325
+      e01: 0
+      e02: 0.050332382
+      e03: -104.32089
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 19.9
+      e20: -0.050332382
+      e21: 0
+      e22: 0.9987325
+      e23: 24.984627
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_02 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 58c79ebc04f48c74fa4869c3f7d941fd, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.865433
+      e01: 0
+      e02: 0.5010247
+      e03: 31.08429
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.883467
+      e20: -0.5010247
+      e21: 0
+      e22: 0.865433
+      e23: 7.632332
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_pine_01 (2)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 60f048e3ccfd7d0498e095661396963b, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.3892704
+      e01: 0
+      e02: 0
+      e03: 62.696
+      e10: 0
+      e11: 1.3892704
+      e12: 0
+      e13: 21.58
+      e20: 0
+      e21: 0
+      e22: 1.3892704
+      e23: 60.059
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01b (3)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 1716e599fb056014ca8f5786b3a82fcf, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.5442886
+      e01: 0
+      e02: -0.83889806
+      e03: 60.36
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.61
+      e20: 0.83889806
+      e21: 0
+      e22: 0.5442886
+      e23: 56.06
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_sack_open_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 87dc0b67e5fe70f40a31e17b0c0058b4, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.63039786
+      e01: 0
+      e02: 0.061673
+      e03: 4
+      e10: 0
+      e11: 0.6334075
+      e12: 0
+      e13: 14.5
+      e20: -0.061673
+      e21: 0
+      e22: 0.63039786
+      e23: -16.400002
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_02 (8)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 60f048e3ccfd7d0498e095661396963b, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.9140891
+      e01: 0
+      e02: -0.88822526
+      e03: 69.58
+      e10: 0
+      e11: 1.27456
+      e12: 0
+      e13: 21.87
+      e20: 0.88822526
+      e21: 0
+      e22: 0.9140891
+      e23: 23.4
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01b (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 2ef20853860a4694c9c08c312d121b56, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.9841991
+      e01: -0.16529201
+      e02: 0.06348797
+      e03: 74.407
+      e10: 0.16488786
+      e11: 0.9862442
+      e12: 0.01158969
+      e13: 21.52
+      e20: -0.06453032
+      e21: -0.0009381687
+      e22: 0.9979153
+      e23: 57.5
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_plant_02
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 87dc0b67e5fe70f40a31e17b0c0058b4, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.96901286
+      e01: 0
+      e02: 0.24701126
+      e03: 49.419495
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 6.6
+      e20: -0.24701126
+      e21: 0
+      e22: -0.96901286
+      e23: 120.8
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_02 (11)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -1.9596479
+      e01: 0
+      e02: -1.5046852
+      e03: 112.66075
+      e10: 0
+      e11: 2.4706852
+      e12: 0
+      e13: 21.113
+      e20: 1.5046827
+      e21: 0
+      e22: -1.9596511
+      e23: -64.90555
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (35)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 3602432658d7f1540978cbbd6875ad2d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.50886893
+      e01: 0
+      e02: -0.86084443
+      e03: 187.5
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 20.9
+      e20: 0.86084443
+      e21: 0
+      e22: -0.50886893
+      e23: 81.3
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_01 (4)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -3.6404572
+      e01: 0
+      e02: -3.1321027
+      e03: 19.183846
+      e10: 0
+      e11: 4.8023887
+      e12: 0
+      e13: 20.586
+      e20: 3.1320996
+      e21: 0
+      e22: -3.6404607
+      e23: 115.74872
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (26)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: f867a2534aa85914d9e6b62f681cdf69, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.75167876
+      e01: -0.048362374
+      e02: 0.6577546
+      e03: 81.35
+      e10: 0.06420646
+      e11: 0.99793667
+      e12: 0
+      e13: 21.92
+      e20: -0.6563974
+      e21: 0.042232048
+      e22: 0.75323296
+      e23: 52.620003
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01b (9)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 15977c94193725642b83e5c7be73b2e8, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.82955205
+      e01: 0
+      e02: -0.55842936
+      e03: 57.88429
+      e10: 0
+      e11: 1.1134384
+      e12: 0
+      e13: 21.593466
+      e20: 0.55842936
+      e21: 0
+      e22: 0.82955205
+      e23: 12.232334
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_01 (2)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 87dc0b67e5fe70f40a31e17b0c0058b4, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.9866886
+      e01: 0
+      e02: -0.16262336
+      e03: 224.03041
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 20.3
+      e20: 0.16262336
+      e21: 0
+      e22: -0.9866886
+      e23: 10.142624
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_02 (4)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d4d6eed92fb93e948b95c2fc4d1f6f8d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.67088646
+      e01: 0
+      e02: -0.7415601
+      e03: 59.989998
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.029999
+      e20: 0.7415601
+      e21: 0
+      e22: 0.67088646
+      e23: 28.25
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01a (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 60f048e3ccfd7d0498e095661396963b, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.985945
+      e01: 0
+      e02: 0.4146532
+      e03: 78.09469
+      e10: 0
+      e11: 1.0695906
+      e12: 0
+      e13: 21.53
+      e20: -0.4146532
+      e21: 0
+      e22: -0.985945
+      e23: 56.74361
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01b (6)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 2.309806
+      e01: 0
+      e02: 2.0352557
+      e03: 76.55734
+      e10: 0
+      e11: 3.078548
+      e12: 0
+      e13: 20.973
+      e20: -2.0352528
+      e21: 0
+      e22: 2.3098094
+      e23: -54.03808
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (23)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 70fbff8150321794f8532fef4f4d7c98, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.7718932
+      e01: 0.05513493
+      e02: -0.63335705
+      e03: 67.3
+      e10: -0.07124666
+      e11: 0.99745876
+      e12: 0.0000000037252903
+      e13: 21.87
+      e20: 0.6317475
+      e21: 0.045124564
+      e22: 0.7738598
+      e23: 46.800003
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_path_01b (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.80345666
+      e01: 0
+      e02: 1.4209104
+      e03: -20.91603
+      e10: 0
+      e11: 1.6323384
+      e12: 0
+      e13: 21.307
+      e20: -1.4209104
+      e21: 0
+      e22: -0.80345666
+      e23: 8.707571
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (2)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 58c79ebc04f48c74fa4869c3f7d941fd, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.88705814
+      e01: 0
+      e02: 0.46165773
+      e03: 17.984291
+      e10: 0
+      e11: 1.1019589
+      e12: 0
+      e13: 21.153467
+      e20: -0.46165773
+      e21: 0
+      e22: 0.88705814
+      e23: 35.032333
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_pine_01 (2)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 60f048e3ccfd7d0498e095661396963b, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.27456
+      e01: 0
+      e02: 0
+      e03: 84.63
+      e10: 0
+      e11: 1.27456
+      e12: 0
+      e13: 21.52
+      e20: 0
+      e21: 0
+      e22: 1.27456
+      e23: 54.529995
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01b (7)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 7dca68918011bd644a4dc268eea79b44, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.9087391
+      e01: 0
+      e02: -0.41736472
+      e03: 63.684288
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.653467
+      e20: 0.41736472
+      e21: 0
+      e22: -0.9087391
+      e23: 0.8323326
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_02 (3)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: b75a02a185084be49bc0ead09438de21, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 63.08
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.57
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 52.5
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_sand_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: ab945ff7c1d59bb4a8b506cb8c7dafcd, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 69.6
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.14
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 67.84
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_box_wood_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.120189816
+      e01: 0
+      e02: 1.6279076
+      e03: -64.939804
+      e10: 0
+      e11: 1.6323384
+      e12: 0
+      e13: 21.307
+      e20: -1.6279076
+      e21: 0
+      e22: -0.120189816
+      e23: 33.91817
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (6)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 70fbff8150321794f8532fef4f4d7c98, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.05384803
+      e01: 0.09725802
+      e02: -0.99380153
+      e03: 71.14627
+      e10: 0.00712616
+      e11: 0.99518263
+      e12: 0.09777931
+      e13: 21.651897
+      e20: 0.9985238
+      e21: -0.012347221
+      e22: 0.052895546
+      e23: 52.928753
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_path_01b (3)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 87dc0b67e5fe70f40a31e17b0c0058b4, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.177162
+      e01: 0
+      e02: -0.257027
+      e03: 87.9024
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 6.1000004
+      e20: 0.31308052
+      e21: 0
+      e22: 0.9664045
+      e23: -40.916573
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_02 (9)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c191cc4231bc1a940986671275027664, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.99635696
+      e01: 0
+      e02: -0.96816546
+      e03: 63.23
+      e10: 0
+      e11: 1.3892704
+      e12: 0
+      e13: 21.67
+      e20: 0.96816546
+      e21: 0
+      e22: 0.99635696
+      e23: 58.77
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01a (2)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d4d6eed92fb93e948b95c2fc4d1f6f8d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.73388696
+      e01: 0.023654766
+      e02: 0.67885965
+      e03: 84.77879
+      e10: -0.006475512
+      e11: 0.9995917
+      e12: -0.027830224
+      e13: 22.22931
+      e20: -0.67924076
+      e21: 0.016028274
+      e22: 0.73374045
+      e23: 49.390923
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01a (10)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 3ad660daf3a1e02458b9f3eca418861a, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.9432437
+      e01: 0
+      e02: -0.33210146
+      e03: 81.95
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.22
+      e20: 0.33210146
+      e21: 0
+      e22: 0.9432437
+      e23: 21.79
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_building_02
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 9bd069d17b875254f9fc1eeccdd647b4, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 69.56
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.67
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 66.82
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_vase_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 7710c12951e94d24eb1b65f105f6823e, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.0281522
+      e01: 0
+      e02: 0.88947755
+      e03: 85.01
+      e10: 0
+      e11: 1.5857999
+      e12: 0
+      e13: 21.465
+      e20: -0.88947755
+      e21: 0
+      e22: 1.0281522
+      e23: 56.17
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_flower_02 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.11538797
+      e01: 0
+      e02: -1.6282556
+      e03: -47.351936
+      e10: 0
+      e11: 1.6323384
+      e12: 0
+      e13: 21.307
+      e20: 1.6282556
+      e21: 0
+      e22: -0.11538797
+      e23: 53.311604
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (4)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 3602432658d7f1540978cbbd6875ad2d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.6026882
+      e01: 0
+      e02: 0.7979768
+      e03: -60
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.4
+      e20: -0.7979768
+      e21: 0
+      e22: 0.6026882
+      e23: -41.6
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.99961925
+      e01: 0
+      e02: -1.2904611
+      e03: 9.018421
+      e10: 0
+      e11: 1.6323384
+      e12: 0
+      e13: 21.307
+      e20: 1.2904611
+      e21: 0
+      e22: 0.99961925
+      e23: 11.354565
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.72044003
+      e01: 0
+      e02: -2.932884
+      e03: 85.42908
+      e10: 0
+      e11: 3.0200667
+      e12: 0
+      e13: 20.988
+      e20: 2.9328792
+      e21: 0
+      e22: -0.72044116
+      e23: -90.65124
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (22)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 1716e599fb056014ca8f5786b3a82fcf, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.095232844
+      e01: 0
+      e02: -0.9954551
+      e03: 55.13
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.69
+      e20: 0.9954551
+      e21: 0
+      e22: 0.095232844
+      e23: 40.47
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_sack_open_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -1.6642452
+      e01: 0
+      e02: -1.5359277
+      e03: 77.056305
+      e10: 0
+      e11: 2.264681
+      e12: 0
+      e13: 21.161
+      e20: 1.5359263
+      e21: 0
+      e22: -1.6642467
+      e23: 18.26693
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (33)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 70fbff8150321794f8532fef4f4d7c98, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.59319556
+      e01: 0.055134937
+      e02: -0.80316865
+      e03: 68.729996
+      e10: -0.00363098
+      e11: 0.99745876
+      e12: 0.071154095
+      e13: 21.65
+      e20: 0.8050506
+      e21: 0.045124553
+      e22: -0.5914879
+      e23: 60.47
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_path_01b (2)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 16c4b1c9bf28bc44eab122106a0e4864, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.9895332
+      e01: 0
+      e02: -0.1443054
+      e03: 73.919
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.456
+      e20: 0.1443054
+      e21: 0
+      e22: 0.9895332
+      e23: 62.078
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_table_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 60f048e3ccfd7d0498e095661396963b, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.2745624
+      e01: 0
+      e02: 0
+      e03: 70.42
+      e10: 0
+      e11: 1.2745624
+      e12: 0
+      e13: 21.87
+      e20: 0
+      e21: 0
+      e22: 1.2745624
+      e23: 24.96
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01b
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 58c79ebc04f48c74fa4869c3f7d941fd, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.6081086
+      e01: 0
+      e02: -0.79385394
+      e03: 95.53177
+      e10: 0
+      e11: 1.10196
+      e12: 0
+      e13: 21.85
+      e20: 0.79385394
+      e21: 0
+      e22: 0.6081086
+      e23: 50.70952
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_pine_01 (7)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c191cc4231bc1a940986671275027664, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -1.3379763
+      e01: 0
+      e02: -0.37401876
+      e03: 73.854706
+      e10: 0
+      e11: 1.38927
+      e12: 0
+      e13: 21.5
+      e20: 0.37401876
+      e21: 0
+      e22: -1.3379763
+      e23: 43.19052
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01a (6)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: f867a2534aa85914d9e6b62f681cdf69, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.635082
+      e01: 0
+      e02: -0.77244484
+      e03: 63.28
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.14
+      e20: 0.77244484
+      e21: 0
+      e22: 0.635082
+      e23: 31.490002
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01b (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c191cc4231bc1a940986671275027664, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.38927
+      e01: 0
+      e02: 0
+      e03: 73.89
+      e10: 0
+      e11: 1.38927
+      e12: 0
+      e13: 21.11
+      e20: 0
+      e21: 0
+      e22: 1.38927
+      e23: 51.329998
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01a (4)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.98211366
+      e01: 0
+      e02: 1.7368647
+      e03: 19.000397
+      e10: 0
+      e11: 1.9953053
+      e12: 0
+      e13: 21.223
+      e20: -1.7368647
+      e21: 0
+      e22: -0.98211366
+      e23: 55.80431
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (7)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: cc4034e4bb7d9cd418975561c7bcd316, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.44364262
+      e01: 0
+      e02: -0.8962038
+      e03: 86.95
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.46
+      e20: 0.8962038
+      e21: 0
+      e22: 0.44364262
+      e23: 71.33
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_building_04
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: a90ec1b8be596134b912428bfce1f226, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 3.8254247
+      e01: 0
+      e02: -0.92244035
+      e03: -86.80539
+      e10: 0
+      e11: 3.9350712
+      e12: 0
+      e13: 20.457
+      e20: 0.9224399
+      e21: 0
+      e22: 3.8254266
+      e23: 58.88926
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_02 (3)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d4d6eed92fb93e948b95c2fc4d1f6f8d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.67088646
+      e01: 0
+      e02: -0.7415601
+      e03: 66.17
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.08
+      e20: 0.7415601
+      e21: 0
+      e22: 0.67088646
+      e23: 34.83
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01a (2)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 58c79ebc04f48c74fa4869c3f7d941fd, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.8122175
+      e01: 0
+      e02: 0.583355
+      e03: 75.98428
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.673466
+      e20: -0.583355
+      e21: 0
+      e22: -0.8122175
+      e23: 10.332333
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_pine_01 (4)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.9614887
+      e01: 0
+      e02: 1.7923342
+      e03: 2.5114746
+      e10: 0
+      e11: 2.0339398
+      e12: 0
+      e13: 21.214
+      e20: -1.7923342
+      e21: 0
+      e22: -0.9614887
+      e23: 40.140167
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -1.6191121
+      e01: 0
+      e02: 2.5978289
+      e03: 47.752857
+      e10: 0
+      e11: 3.061083
+      e12: 0
+      e13: 20.988
+      e20: -2.597828
+      e21: 0
+      e22: -1.6191127
+      e23: 82.26079
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (24)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 7d350a824190e0647822f95e9f7bbc97, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.2549492
+      e01: 0
+      e02: 0
+      e03: 63.707
+      e10: 0
+      e11: 1.2549495
+      e12: 0
+      e13: 21.74
+      e20: 0
+      e21: 0
+      e22: 1.2549495
+      e23: 41.219
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_flower_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: f867a2534aa85914d9e6b62f681cdf69, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.043089274
+      e01: 0
+      e02: -0.99907136
+      e03: 69.95
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.67
+      e20: 0.99907136
+      e21: 0
+      e22: 0.043089274
+      e23: 50.91
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01b (7)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 7deee4ad3618a17429fa704cea48558c, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.77330947
+      e01: 0
+      e02: -0.63402873
+      e03: 64.25
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.898
+      e20: 0.63402873
+      e21: 0
+      e22: 0.77330947
+      e23: 53.68
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_rake_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -1.8521838
+      e01: 0
+      e02: 0.742066
+      e03: -1.5615311
+      e10: 0
+      e11: 1.9953053
+      e12: 0
+      e13: 21.223
+      e20: -0.742066
+      e21: 0
+      e22: -1.8521838
+      e23: -6.7338867
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (15)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 15977c94193725642b83e5c7be73b2e8, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.0077196
+      e01: 0
+      e02: -0.323199
+      e03: 41.86012
+      e10: 0
+      e11: 1.05828
+      e12: 0
+      e13: 21.7
+      e20: 0.323199
+      e21: 0
+      e22: 1.0077196
+      e23: 82.40619
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_01 (4)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.1182301
+      e01: 0
+      e02: -1.698966
+      e03: -24.69474
+      e10: 0
+      e11: 2.0339425
+      e12: 0
+      e13: 21.214
+      e20: 1.698966
+      e21: 0
+      e22: 1.1182301
+      e23: -15.917973
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (14)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 70fbff8150321794f8532fef4f4d7c98, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 59.9
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.2
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 44
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_path_01b
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 70fbff8150321794f8532fef4f4d7c98, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.74707717
+      e01: 0.012851089
+      e02: -0.66461366
+      e03: 84.31336
+      e10: -0.04891937
+      e11: 0.99603915
+      e12: 0.07424878
+      e13: 22.207556
+      e20: 0.6629353
+      e21: 0.087981984
+      e22: -0.7434896
+      e23: 49.044247
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_path_01b (8)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d4d6eed92fb93e948b95c2fc4d1f6f8d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.61020494
+      e01: 0
+      e02: -0.7922436
+      e03: 79.29
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.63
+      e20: 0.7922436
+      e21: 0
+      e22: -0.61020494
+      e23: 25.64
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01a (7)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 455995b8866658b42b3da7b1cab18535, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.38799
+      e01: 0
+      e02: 0
+      e03: 70.4
+      e10: 0
+      e11: 1.38799
+      e12: 0
+      e13: 21.86
+      e20: 0
+      e21: 0
+      e22: 1.38799
+      e23: 84.5
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_rock_03 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d1fd41beb70267947bc1c996df07593d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 79.37576
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.01
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 42.18247
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_rock_02
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d4d6eed92fb93e948b95c2fc4d1f6f8d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.26842487
+      e01: 0
+      e02: -0.9633007
+      e03: 82.03
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.27
+      e20: 0.9633007
+      e21: 0
+      e22: 0.26842487
+      e23: 63.08
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01a (11)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c191cc4231bc1a940986671275027664, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.7778224
+      e01: 0
+      e02: 0.73417836
+      e03: 78.18
+      e10: 0
+      e11: 1.0695906
+      e12: 0
+      e13: 21.66
+      e20: -0.73417836
+      e21: 0
+      e22: -0.7778224
+      e23: 55.46
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01a (9)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 58c79ebc04f48c74fa4869c3f7d941fd, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.9395254
+      e01: 0
+      e02: -0.34247923
+      e03: 78.48428
+      e10: 0
+      e11: 1.266369
+      e12: 0
+      e13: 21.493467
+      e20: 0.34247923
+      e21: 0
+      e22: 0.9395254
+      e23: -4.367668
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_pine_01 (3)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 58c79ebc04f48c74fa4869c3f7d941fd, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.997728
+      e01: 0
+      e02: -0.06737121
+      e03: 35.6214
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.2
+      e20: 0.06737121
+      e21: 0
+      e22: 0.997728
+      e23: 59.938908
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_pine_01 (5)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 83ca3216726525148a325296526fcfa7, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 53.11
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.24
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 38.77
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_log_wood_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 9d123ff5b15c0bd4fbd33779e2acdbd9, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.5787054
+      e01: 0
+      e02: -0.815537
+      e03: -8.699997
+      e10: 0
+      e11: 1.073204
+      e12: 0
+      e13: 5.6
+      e20: 0.815537
+      e21: 0
+      e22: 0.5787054
+      e23: -256.1
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_mountain_01 (4)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 87dc0b67e5fe70f40a31e17b0c0058b4, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.007458329
+      e01: 0
+      e02: 0.9999722
+      e03: -19
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 3
+      e20: -0.9999722
+      e21: 0
+      e22: -0.007458329
+      e23: 56.2
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_02 (7)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 3.1448903
+      e01: 0
+      e02: -0.75833994
+      e03: 142.78084
+      e10: 0
+      e11: 3.23503
+      e12: 0
+      e13: 20.947
+      e20: 0.75833994
+      e21: 0
+      e22: 3.1448903
+      e23: 68.82635
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (40)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 87dc0b67e5fe70f40a31e17b0c0058b4, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.4987197
+      e01: 0
+      e02: 0.8667634
+      e03: 102.7
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 19.9
+      e20: -0.8667634
+      e21: 0
+      e22: -0.4987197
+      e23: 218.19998
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_02 (2)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c191cc4231bc1a940986671275027664, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.9140891
+      e01: 0
+      e02: -0.88822526
+      e03: 70.94
+      e10: 0
+      e11: 1.27456
+      e12: 0
+      e13: 21.87
+      e20: 0.88822526
+      e21: 0
+      e22: 0.9140891
+      e23: 22.62
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01a (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 8edf1a08abb5cb342a2a608b289c1f91, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 78.12
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.54
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 50.73
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_bird_house_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 3.1448903
+      e01: 0
+      e02: -0.75833994
+      e03: 163.34009
+      e10: 0
+      e11: 3.23503
+      e12: 0
+      e13: 20.947
+      e20: 0.75833994
+      e21: 0
+      e22: 3.1448903
+      e23: -11.623917
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (43)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: f867a2534aa85914d9e6b62f681cdf69, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.81443846
+      e01: 0
+      e02: 0.58024997
+      e03: 64.87677
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.09
+      e20: -0.58024997
+      e21: 0
+      e22: 0.81443846
+      e23: 44.23774
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01b (3)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.607487
+      e01: 0
+      e02: 2.2621927
+      e03: 83.9
+      e10: 0
+      e11: 2.34233
+      e12: 0
+      e13: 21.143
+      e20: -2.2621927
+      e21: 0
+      e22: 0.607487
+      e23: 103.7
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (34)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 65a171ea06543b04fa7aa086cd66702d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 87.07
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.258
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 65.1
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_vase_02
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: f867a2534aa85914d9e6b62f681cdf69, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.99967253
+      e01: 0
+      e02: -0.02560878
+      e03: 55.013706
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.14
+      e20: 0.02560878
+      e21: 0
+      e22: 0.99967253
+      e23: 44.838314
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01b (2)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 7dca68918011bd644a4dc268eea79b44, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.007382989
+      e01: 0
+      e02: 0.99997276
+      e03: 29.784286
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.653467
+      e20: -0.99997276
+      e21: 0
+      e22: -0.007382989
+      e23: 22.732332
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_02 (2)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: caf770415cf8b3745b977df80c57628b, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 59.89
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.56
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 56.84
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_barrel_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: a90ec1b8be596134b912428bfce1f226, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.2109948
+      e01: 0
+      e02: -1.5633371
+      e03: -18.614449
+      e10: 0
+      e11: 1.9775065
+      e12: 0
+      e13: 21.014
+      e20: 1.563337
+      e21: 0
+      e22: 1.210995
+      e23: 58.48439
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_02 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 70fbff8150321794f8532fef4f4d7c98, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.66674066
+      e01: 0.041927908
+      e02: -0.74410945
+      e03: 66.67
+      e10: 0
+      e11: 0.9984162
+      e12: 0.056257192
+      e13: 22.11
+      e20: 0.74528974
+      e21: -0.037508957
+      e22: 0.6656848
+      e23: 34.010002
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_path_01b (7)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 87dc0b67e5fe70f40a31e17b0c0058b4, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.25894958
+      e01: 0
+      e02: 0.96589077
+      e03: 7.200001
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 19.9
+      e20: -0.96589077
+      e21: 0
+      e22: -0.25894958
+      e23: -163.20001
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_02 (6)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 52eeab1f0ce4d934591972b6df5d179b, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.7412946
+      e01: 0
+      e02: 0.6711799
+      e03: 64.29
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.8
+      e20: -0.6711799
+      e21: 0
+      e22: -0.7412946
+      e23: 67.55
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_building_03
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -1.8025402
+      e01: 0
+      e02: 3.187786
+      e03: 105
+      e10: 0
+      e11: 3.662121
+      e12: 0
+      e13: 20.848
+      e20: -3.187786
+      e21: 0
+      e22: -1.8025402
+      e23: 146
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (30)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 9d123ff5b15c0bd4fbd33779e2acdbd9, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.32642794
+      e01: 0
+      e02: 0.94522214
+      e03: -164.9997
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 9.4
+      e20: -0.94522214
+      e21: 0
+      e22: 0.32642794
+      e23: -52.89911
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_mountain_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d4d6eed92fb93e948b95c2fc4d1f6f8d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.74362004
+      e01: 0.053354844
+      e02: -0.6664702
+      e03: 63.949997
+      e10: -0.07472138
+      e11: 0.99719816
+      e12: -0.0035394933
+      e13: 22.09
+      e20: 0.664414
+      e21: 0.052431606
+      e22: 0.74552333
+      e23: 45.1
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01a (8)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 7dca68918011bd644a4dc268eea79b44, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.0994817
+      e01: 0
+      e02: 0.9950395
+      e03: 49.38495
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.74
+      e20: -0.9950395
+      e21: 0
+      e22: -0.0994817
+      e23: 67.390816
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_02 (4)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d28a5d39d87b52c49824501fac8b689c, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.04461801
+      e01: 0
+      e02: -0.9990042
+      e03: 83.613266
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.55
+      e20: 0.9990042
+      e21: 0
+      e22: -0.04461801
+      e23: 36.55379
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_bush_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 30c389f0d35cc414d9e841ff82ce1424, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.4042524
+      e01: 0
+      e02: 0.9146475
+      e03: 58.556526
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.048515
+      e20: -0.9146475
+      e21: 0
+      e22: 0.4042524
+      e23: 33.23516
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hanger_clothes_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: f867a2534aa85914d9e6b62f681cdf69, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.71771073
+      e01: 0
+      e02: 0.69634265
+      e03: 71.55
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.67
+      e20: -0.69634265
+      e21: 0
+      e22: -0.71771073
+      e23: 49.41
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01b (6)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c23d7dd34e2d29a42bf0998f5f20de59, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.8059292
+      e01: 0
+      e02: 0.5920121
+      e03: 74.83
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.513
+      e20: -0.5920121
+      e21: 0
+      e22: -0.8059292
+      e23: 60.91
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_chair_01b
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 7d1c542ac0453aa40a248ffb042193c2, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.03186965
+      e01: 0
+      e02: 0.9994921
+      e03: 49.3
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.22
+      e20: -0.9994921
+      e21: 0
+      e22: -0.03186965
+      e23: 42.12
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_building_05
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 7110966a22a1bd74c894def7bbb4b8cb, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 78.62
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.68
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 44.04
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_rock_small_02 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 9d123ff5b15c0bd4fbd33779e2acdbd9, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.52326596
+      e01: 0
+      e02: -0.8521697
+      e03: -158.7
+      e10: 0
+      e11: 0.9043257
+      e12: 0
+      e13: 10.1
+      e20: 0.8521697
+      e21: 0
+      e22: 0.52326596
+      e23: 48.2
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_mountain_01 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d68abfcba378a4f46847fa7f406b6ba6, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 74.104
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.371
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 62.127
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_jug_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c23d7dd34e2d29a42bf0998f5f20de59, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.8254597
+      e01: 0
+      e02: -0.5644611
+      e03: 74.07652
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.513
+      e20: 0.5644611
+      e21: 0
+      e22: 0.8254597
+      e23: 63.54516
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_chair_01b (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 70fbff8150321794f8532fef4f4d7c98, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.73241484
+      e01: 0.03004315
+      e02: 0.68039453
+      e03: 68.101
+      e10: -0.034267083
+      e11: 1.194526
+      e12: -0.00003444124
+      e13: 22.056
+      e20: -0.6799958
+      e21: -0.027836751
+      e22: 0.732846
+      e23: 40.4994
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_path_01b (4)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -3.640458
+      e01: 0
+      e02: -3.132107
+      e03: 46.89266
+      e10: 0
+      e11: 4.80239
+      e12: 0
+      e13: 20.586
+      e20: 3.1321006
+      e21: 0
+      e22: -3.6404657
+      e23: 176.14069
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (27)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 7710c12951e94d24eb1b65f105f6823e, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.0049497467
+      e01: 0
+      e02: -1.2165583
+      e03: 70.24
+      e10: 0
+      e11: 1.2165684
+      e12: 0
+      e13: 21.638
+      e20: 1.2165586
+      e21: 0
+      e22: -0.0049497457
+      e23: 27.59
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_flower_02
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 70fbff8150321794f8532fef4f4d7c98, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.31293643
+      e01: 0.028970663
+      e02: -0.9495904
+      e03: 81.371
+      e10: 0.051088624
+      e11: 1.5478158
+      e12: 0.036469277
+      e13: 21.964
+      e20: 0.9483991
+      e21: -0.09293742
+      e22: 0.311365
+      e23: 58.196
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_path_01b (11)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -2.6918252
+      e01: 0
+      e02: 1.015163
+      e03: 143.5
+      e10: 0
+      e11: 2.7556386
+      e12: 0
+      e13: 21.116
+      e20: -1.0784631
+      e21: 0
+      e22: -2.533829
+      e23: 31
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (42)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 8f07894e139232f4fb48b79133ad05fa, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.79069984
+      e01: 0.021004457
+      e02: -0.6118436
+      e03: 65.5
+      e10: 9.313226e-10
+      e11: 0.9994112
+      e12: 0.03430957
+      e13: 21.88
+      e20: 0.6122041
+      e21: -0.02712857
+      e22: 0.7902343
+      e23: 50.82
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_sack_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -2.0210154
+      e01: 0
+      e02: -1.7388002
+      e03: 43.345833
+      e10: 0
+      e11: 2.6660655
+      e12: 0
+      e13: 21.068
+      e20: 1.7387986
+      e21: 0
+      e22: -2.0210173
+      e23: 6.8620777
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (11)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 9d123ff5b15c0bd4fbd33779e2acdbd9, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.51310337
+      e01: 0
+      e02: -0.858327
+      e03: -85.399994
+      e10: 0
+      e11: 1.1430844
+      e12: 0
+      e13: 4.6000004
+      e20: 0.858327
+      e21: 0
+      e22: -0.51310337
+      e23: -219.5998
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_mountain_01 (3)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 7110966a22a1bd74c894def7bbb4b8cb, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 64.63
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.78
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 52.85
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_rock_small_02
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.96149
+      e01: 0
+      e02: 1.7923366
+      e03: -41.29033
+      e10: 0
+      e11: 2.0339425
+      e12: 0
+      e13: 21.214
+      e20: -1.7923366
+      e21: 0
+      e22: -0.96149
+      e23: 79.79508
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (9)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 7dca68918011bd644a4dc268eea79b44, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 70.77
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.87
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 23.62
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_02
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 7710c12951e94d24eb1b65f105f6823e, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.0049497536
+      e01: 0
+      e02: -1.2165602
+      e03: 84.45
+      e10: 0
+      e11: 1.21657
+      e12: 0
+      e13: 21.538
+      e20: 1.2165602
+      e21: 0
+      e22: -0.0049497536
+      e23: 57.159996
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_flower_02
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 09cc238bd856b5d468789a6d2d0f48ed, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.4560269
+      e01: 0
+      e02: 0
+      e03: 73.594
+      e10: 0
+      e11: 0.45602685
+      e12: 0
+      e13: 22.368
+      e20: 0
+      e21: 0
+      e22: 0.45602685
+      e23: 61.97
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_bowl_metal_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -2.6644049
+      e01: 0
+      e02: -0.0942834
+      e03: -4.7343903
+      e10: 0
+      e11: 2.666071
+      e12: 0
+      e13: 21.068
+      e20: 0.09428332
+      e21: 0
+      e22: -2.6644073
+      e23: 73.82931
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (10)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 1a8449922d22bae4791e0335226fa1aa, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 60.31652
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.348515
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 33.63516
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_bathtub_wood_01 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 5a5a8e9d7228e204a91c0fb79c12479b, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.8014792
+      e01: 0
+      e02: 0.59802294
+      e03: 68.976524
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.558516
+      e20: -0.59802294
+      e21: 0
+      e22: -0.8014792
+      e23: 66.08516
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_ladder_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 6bc5a23d8cb251f40b96a1fbf4ddb4fc, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.15745425
+      e01: 0
+      e02: -0.98752636
+      e03: 55.589
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.985
+      e20: 0.98752636
+      e21: 0
+      e22: -0.15745425
+      e23: 46.754
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_bench_wood_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 2e716c43576f71b4aa87e6cb4ebeaeab, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.70379215
+      e01: 0
+      e02: -0.710406
+      e03: 78.75
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.68
+      e20: 0.710406
+      e21: 0
+      e22: 0.70379215
+      e23: 41.41
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_rocks_tiny_01 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.18888399
+      e01: 0
+      e02: -2.0251558
+      e03: -43.613014
+      e10: 0
+      e11: 2.0339425
+      e12: 0
+      e13: 21.214
+      e20: 2.0251558
+      e21: 0
+      e22: -0.18888399
+      e23: 13.520987
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (5)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 3.075121
+      e01: 0
+      e02: 0.14521933
+      e03: 113.39599
+      e10: 0
+      e11: 3.078548
+      e12: 0
+      e13: 20.973
+      e20: -0.1452191
+      e21: 0
+      e22: 3.0751257
+      e23: -34.246315
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (32)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 3.144888
+      e01: 0
+      e02: -0.7583395
+      e03: 115.07203
+      e10: 0
+      e11: 3.2350278
+      e12: 0
+      e13: 20.947
+      e20: 0.75833935
+      e21: 0
+      e22: 3.1448889
+      e23: 8.434362
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (19)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: f867a2534aa85914d9e6b62f681cdf69, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.646974
+      e01: 0
+      e02: -0.7625129
+      e03: 73.86
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.95
+      e20: 0.7625129
+      e21: 0
+      e22: -0.646974
+      e23: 33.4
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01b (5)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 7710c12951e94d24eb1b65f105f6823e, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.0281513
+      e01: 0
+      e02: 0.8894768
+      e03: 70.8
+      e10: 0
+      e11: 1.5857986
+      e12: 0
+      e13: 21.465
+      e20: -0.8894768
+      e21: 0
+      e22: 1.0281513
+      e23: 26.6
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_flower_02 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -2.3246136
+      e01: 0
+      e02: 0.93134207
+      e03: 122.94075
+      e10: 0
+      e11: 2.50424
+      e12: 0
+      e13: 21.116
+      e20: -0.93134207
+      e21: 0
+      e22: -2.3246136
+      e23: 111.450264
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (36)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 3602432658d7f1540978cbbd6875ad2d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.90675026
+      e01: 0
+      e02: 0.42166817
+      e03: 72.79258
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.4
+      e20: -0.42166817
+      e21: 0
+      e22: -0.90675026
+      e23: -150.44928
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_01 (6)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c191cc4231bc1a940986671275027664, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.9963566
+      e01: 0
+      e02: -0.9681651
+      e03: 75.68
+      e10: 0
+      e11: 1.38927
+      e12: 0
+      e13: 21.3
+      e20: 0.9681651
+      e21: 0
+      e22: 0.9963566
+      e23: 50.19
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01a (5)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 87dc0b67e5fe70f40a31e17b0c0058b4, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.2589496
+      e01: 0
+      e02: 0.9658908
+      e03: 147.2
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 19.9
+      e20: -0.9658908
+      e21: 0
+      e22: -0.2589496
+      e23: -121.1
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_02 (5)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: a90ec1b8be596134b912428bfce1f226, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.9224124
+      e01: 0
+      e02: -0.46355897
+      e03: 22.920654
+      e10: 0
+      e11: 1.9775127
+      e12: 0
+      e13: 21.014
+      e20: 0.46355897
+      e21: 0
+      e22: 1.9224124
+      e23: 3.5596924
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_02 (2)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 8b3f67c33dd9e9c4ea594b19207b4fbe, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.9318667
+      e01: 0
+      e02: 0.3628008
+      e03: 81.71
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.17
+      e20: -0.3628008
+      e21: 0
+      e22: 0.9318667
+      e23: 68.44
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_trough_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.80072814
+      e01: 0
+      e02: -2.972595
+      e03: 49.904587
+      e10: 0
+      e11: 3.078548
+      e12: 0
+      e13: 20.973
+      e20: 2.9725904
+      e21: 0
+      e22: -0.80072933
+      e23: -108.7465
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (20)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.58938444
+      e01: 0
+      e02: -2.3993616
+      e03: 46.554516
+      e10: 0
+      e11: 2.4706852
+      e12: 0
+      e13: 21.113
+      e20: 2.3993576
+      e21: 0
+      e22: -0.5893854
+      e23: -72.28809
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (21)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.60748625
+      e01: 0
+      e02: 2.262192
+      e03: 56.19119
+      e10: 0
+      e11: 2.342334
+      e12: 0
+      e13: 21.143
+      e20: -2.26219
+      e21: 0
+      e22: 0.6074867
+      e23: 43.308014
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (28)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 46a54c5b0997d8b47bf6519139a81b86, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.62771857
+      e01: 0
+      e02: 0.7784406
+      e03: 74.25042
+      e10: 0
+      e11: 1.4095399
+      e12: 0
+      e13: 21.96
+      e20: -0.7784404
+      e21: 0
+      e22: 0.62771875
+      e23: 33.955463
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_path_01a (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -1.5152524
+      e01: 0
+      e02: 0.60707647
+      e03: 42.186222
+      e10: 0
+      e11: 1.6323384
+      e12: 0
+      e13: 21.307
+      e20: -0.60707647
+      e21: 0
+      e22: -1.5152524
+      e23: -49.16765
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (12)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 70fbff8150321794f8532fef4f4d7c98, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.9718472
+      e01: -0.01779799
+      e02: -0.23494153
+      e03: 76.84728
+      e10: -0.020945475
+      e11: 0.9997211
+      e12: 0.010908056
+      e13: 21.767529
+      e20: 0.23468186
+      e21: 0.015521908
+      e22: -0.971949
+      e23: 53.490627
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_path_01b (9)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 305f277e1529222439b495a441de2f0b, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.50290567
+      e01: 1.2836366
+      e02: 0.039089795
+      e03: 94.2
+      e10: -0.21283425
+      e11: 0.041907698
+      e12: 1.3620243
+      e13: 22.570137
+      e20: 1.2664723
+      e21: -0.50267875
+      e22: 0.21336979
+      e23: 55.68
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_rock_01 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 3602432658d7f1540978cbbd6875ad2d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.9847095
+      e01: 0
+      e02: 0.17420484
+      e03: 25.099998
+      e10: 0
+      e11: 1.6653746
+      e12: 0
+      e13: 19.1
+      e20: -0.17420484
+      e21: 0
+      e22: -0.9847095
+      e23: 198.29999
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_01 (3)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 15977c94193725642b83e5c7be73b2e8, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.9605438
+      e01: 0
+      e02: 0.27812877
+      e03: 60.025764
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.44
+      e20: -0.27812877
+      e21: 0
+      e22: 0.9605438
+      e23: 59.9665
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 7dca68918011bd644a4dc268eea79b44, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.9891173
+      e01: 0
+      e02: -0.14712888
+      e03: 75.1
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.16
+      e20: 0.14712888
+      e21: 0
+      e22: 0.9891173
+      e23: 69.21
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_02 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d4997bb047d8fbb458f4d63b2322ebdc, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.11270977
+      e01: 0
+      e02: -0.6908664
+      e03: 65.28
+      e10: 0
+      e11: 0.7
+      e12: 0
+      e13: 21.84
+      e20: 0.6908664
+      e21: 0
+      e22: -0.11270977
+      e23: 38.14
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_bush_02
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: af5390e2a0373984db3740f21c0ec034, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.75127196
+      e01: 0
+      e02: 0.65999275
+      e03: 56.2
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.3
+      e20: -0.65999275
+      e21: 0
+      e22: 0.75127196
+      e23: 22.3
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_building_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d4d6eed92fb93e948b95c2fc4d1f6f8d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.99976504
+      e01: 0
+      e02: 0.021675559
+      e03: 59.769997
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.14
+      e20: -0.021675559
+      e21: 0
+      e22: 0.99976504
+      e23: 44.83
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01a (3)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 60f048e3ccfd7d0498e095661396963b, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -1.3379763
+      e01: 0
+      e02: -0.37401876
+      e03: 74.93939
+      e10: 0
+      e11: 1.38927
+      e12: 0
+      e13: 21.4
+      e20: 0.37401876
+      e21: 0
+      e22: -1.3379763
+      e23: 42.14413
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01b (5)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: f867a2534aa85914d9e6b62f681cdf69, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.64195824
+      e01: 0.047825113
+      e02: 0.7652467
+      e03: 66.767395
+      e10: 0
+      e11: 0.99805284
+      e12: -0.062374648
+      e13: 21.531883
+      e20: -0.76673967
+      e21: 0.04004192
+      e22: 0.6407082
+      e23: 64.248825
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01b (4)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c7acbad2649a15647a7a4dfd8cceb5ac, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.99094236
+      e01: 0
+      e02: 0.13428807
+      e03: 73.24652
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.244
+      e20: -0.13428807
+      e21: 0
+      e22: 0.99094236
+      e23: 63.275158
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_chair_01a (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 15977c94193725642b83e5c7be73b2e8, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.98042303
+      e01: 0
+      e02: 0.39840752
+      e03: 69.28429
+      e10: 0
+      e11: 1.05828
+      e12: 0
+      e13: 21.473467
+      e20: -0.39840752
+      e21: 0
+      e22: -0.98042303
+      e23: -12.067669
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_01 (3)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d4d6eed92fb93e948b95c2fc4d1f6f8d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.9637376
+      e01: 0
+      e02: -0.26685232
+      e03: 81.07
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.77
+      e20: 0.26685232
+      e21: 0
+      e22: -0.9637376
+      e23: 51.18
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01a (9)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 305f277e1529222439b495a441de2f0b, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.62490475
+      e01: 0
+      e02: 1.2294968
+      e03: 52.17
+      e10: 0
+      e11: 1.379191
+      e12: 0
+      e13: 22.43
+      e20: -1.2294968
+      e21: 0
+      e22: 0.62490475
+      e23: 56.92
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_rock_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: b36c73269c1668c4bbfb76bf41a74b15, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 434bfd6528d84e643ade0d2cd5c6fe1b, type: 2}
+    matrix:
+      e00: -0.49086657
+      e01: 0
+      e02: 1.3580935
+      e03: -64.100006
+      e10: 0
+      e11: 1.44408
+      e12: 0
+      e13: 137.6
+      e20: -1.3580935
+      e21: 0
+      e22: -0.49086657
+      e23: -282.7814
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_cloud_01 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 3602432658d7f1540978cbbd6875ad2d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.07751644
+      e01: 0
+      e02: -0.99699116
+      e03: -88.26201
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.4
+      e20: 0.99699116
+      e21: 0
+      e22: -0.07751644
+      e23: 103.95493
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_01 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.74043703
+      e01: 0
+      e02: 2.483199
+      e03: -43.957497
+      e10: 0
+      e11: 2.5912344
+      e12: 0
+      e13: 21.086
+      e20: -2.483196
+      e21: 0
+      e22: 0.74043787
+      e23: 103.540665
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (38)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 2.0499327
+      e01: 0
+      e02: -0.4943084
+      e03: 14.256447
+      e10: 0
+      e11: 2.1086879
+      e12: 0
+      e13: 21.197
+      e20: 0.49430847
+      e21: 0
+      e22: 2.0499325
+      e23: -43.348045
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (18)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: b36c73269c1668c4bbfb76bf41a74b15, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 434bfd6528d84e643ade0d2cd5c6fe1b, type: 2}
+    matrix:
+      e00: 1.4440767
+      e01: 0
+      e02: 0
+      e03: -260.3
+      e10: 0
+      e11: 1.444077
+      e12: 0
+      e13: 159.24002
+      e20: 0
+      e21: 0
+      e22: 1.444077
+      e23: 0.21084976
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_cloud_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.1835335
+      e01: 0
+      e02: 1.4604945
+      e03: 77.21938
+      e10: 0
+      e11: 1.8798378
+      e12: 0
+      e13: 21.248
+      e20: -1.4604936
+      e21: 0
+      e22: 1.1835344
+      e23: -13.442066
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (31)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 54708add4b909204cb861ed2bd2cfcdf, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.15436316
+      e01: 0
+      e02: 0.9880143
+      e03: 71.32652
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.418514
+      e20: -0.9880143
+      e21: 0
+      e22: -0.15436316
+      e23: 44.74516
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_well_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 3ad660daf3a1e02458b9f3eca418861a, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.5656736
+      e01: 0
+      e02: -0.82462925
+      e03: 90.52
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.56
+      e20: 0.82462925
+      e21: 0
+      e22: 0.5656736
+      e23: 44.15
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_building_02 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 3.0751228
+      e01: 0
+      e02: 0.14521919
+      e03: 161.66406
+      e10: 0
+      e11: 3.0785499
+      e12: 0
+      e13: 20.973
+      e20: -0.14521919
+      e21: 0
+      e22: 3.0751228
+      e23: -54.304604
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (41)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 3602432658d7f1540978cbbd6875ad2d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.5133507
+      e01: 0
+      e02: 0.8581792
+      e03: 198.1
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.4
+      e20: -0.8581792
+      e21: 0
+      e22: -0.5133507
+      e23: -74.2
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_01 (5)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d4d6eed92fb93e948b95c2fc4d1f6f8d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.61020494
+      e01: 0
+      e02: -0.7922436
+      e03: 76.46218
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.92
+      e20: 0.7922436
+      e21: 0
+      e22: -0.61020494
+      e23: 29.585508
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01a (6)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -1.8521838
+      e01: 0
+      e02: 0.742066
+      e03: 50.609505
+      e10: 0
+      e11: 1.9953053
+      e12: 0
+      e13: 21.223
+      e20: -0.742066
+      e21: 0
+      e22: -1.8521838
+      e23: -22.040688
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (13)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 60f048e3ccfd7d0498e095661396963b, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.99635696
+      e01: 0
+      e02: -0.96816546
+      e03: 61.78
+      e10: 0
+      e11: 1.3892704
+      e12: 0
+      e13: 21.58
+      e20: 0.96816546
+      e21: 0
+      e22: 0.99635696
+      e23: 58.359
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01b (2)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 60f048e3ccfd7d0498e095661396963b, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.9963566
+      e01: 0
+      e02: -0.9681651
+      e03: 74.229996
+      e10: 0
+      e11: 1.38927
+      e12: 0
+      e13: 21.21
+      e20: 0.9681651
+      e21: 0
+      e22: 0.9963566
+      e23: 49.779
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01b (4)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 83ca3216726525148a325296526fcfa7, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.9705832
+      e01: 0
+      e02: -0.24076588
+      e03: 59.08
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.232655
+      e20: 0.24076588
+      e21: 0
+      e22: 0.9705832
+      e23: 55.29348
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_log_wood_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: f97780a5b4f3ed64ca0fe117ef736a11, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.2927728
+      e01: 0
+      e02: 0.110875644
+      e03: 67.156
+      e10: 0
+      e11: 1.2975187
+      e12: 0
+      e13: 21.46
+      e20: -0.110875644
+      e21: 0
+      e22: 1.2927728
+      e23: 52.785
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_flower_03
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 87dc0b67e5fe70f40a31e17b0c0058b4, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.055342223
+      e01: 0
+      e02: -0.6309877
+      e03: 111.36892
+      e10: 0
+      e11: 0.63341
+      e12: 0
+      e13: 9.8
+      e20: 0.6309877
+      e21: 0
+      e22: 0.055342223
+      e23: 17.80234
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_02 (10)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: f867a2534aa85914d9e6b62f681cdf69, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.97494936
+      e01: -0.025228843
+      e02: -0.22099663
+      e03: 76.79988
+      e10: -0.025868472
+      e11: 0.9996654
+      e12: 4.656617e-10
+      e13: 21.737873
+      e20: 0.22092266
+      e21: 0.0057168347
+      e22: -0.97527564
+      e23: 52.640026
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01b (8)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d4d6eed92fb93e948b95c2fc4d1f6f8d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.23799431
+      e01: 0.032385323
+      e02: -0.97072655
+      e03: 79.36
+      e10: 0.042380717
+      e11: 0.99814576
+      e12: 0.043690626
+      e13: 21.77
+      e20: 0.9703415
+      e21: -0.05153821
+      e22: 0.23618048
+      e23: 54.14
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01a (12)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 4432020e36e26f946a400515834f11b7, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 434bfd6528d84e643ade0d2cd5c6fe1b, type: 2}
+    matrix:
+      e00: -1.3994516
+      e01: 0
+      e02: 1.0165279
+      e03: -163.9
+      e10: 0
+      e11: 1.72968
+      e12: 0
+      e13: 185.6
+      e20: -1.0165279
+      e21: 0
+      e22: -1.3994516
+      e23: -162
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_cloud_02 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c7acbad2649a15647a7a4dfd8cceb5ac, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.9949118
+      e01: 0
+      e02: -0.100751385
+      e03: 73.67
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.49
+      e20: 0.100751385
+      e21: 0
+      e22: -0.9949118
+      e23: 60.57
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_chair_01a
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 2e716c43576f71b4aa87e6cb4ebeaeab, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.70379215
+      e01: 0
+      e02: -0.710406
+      e03: 63.15
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.83
+      e20: 0.710406
+      e21: 0
+      e22: 0.70379215
+      e23: 53.74
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_rocks_tiny_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c191cc4231bc1a940986671275027664, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.9140889
+      e01: 0
+      e02: -0.88822514
+      e03: 85.15
+      e10: 0
+      e11: 1.27456
+      e12: 0
+      e13: 21.77
+      e20: 0.88822514
+      e21: 0
+      e22: 0.9140889
+      e23: 52.19
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01a (10)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 092e8eab260eaf84e890e2e5dbc513b1, type: 3}
+      materials:
+      - {fileID: 2100000, guid: ff33af19770dd3e489f9c65e388009fe, type: 2}
+    matrix:
+      e00: 10
+      e01: 0
+      e02: 0
+      e03: -94.100006
+      e10: 0
+      e11: 10
+      e12: 0
+      e13: -69.399994
+      e20: 0
+      e21: 0
+      e22: 10
+      e23: -39.200005
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_sky_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 3602432658d7f1540978cbbd6875ad2d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.6232879
+      e01: 0
+      e02: 0.78199273
+      e03: 154.5
+      e10: 0
+      e11: 1.4589939
+      e12: 0
+      e13: 18.1
+      e20: -0.78199273
+      e21: 0
+      e22: 0.6232879
+      e23: 154
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_01 (2)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d4d6eed92fb93e948b95c2fc4d1f6f8d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.60506654
+      e01: 0.047825098
+      e02: 0.79473716
+      e03: 69.72
+      e10: 0.0029485165
+      e11: 0.99805284
+      e12: -0.0623049
+      e13: 21.54
+      e20: -0.79616934
+      e21: 0.040041916
+      e22: 0.6037473
+      e23: 60.52
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01a (5)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: b75a02a185084be49bc0ead09438de21, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 75.91
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.29
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 62.46
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_sand_01 (2)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 455995b8866658b42b3da7b1cab18535, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.3879937
+      e01: 0
+      e02: 0
+      e03: 52
+      e10: 0
+      e11: 1.3879936
+      e12: 0
+      e13: 21.99
+      e20: 0
+      e21: 0
+      e22: 1.3879936
+      e23: -1.7999992
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_rock_03
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 1a8449922d22bae4791e0335226fa1aa, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 72.58
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.52
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 47.041462
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_bathtub_wood_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c191cc4231bc1a940986671275027664, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.985945
+      e01: 0
+      e02: 0.4146532
+      e03: 77.01
+      e10: 0
+      e11: 1.0695906
+      e12: 0
+      e13: 21.5
+      e20: -0.4146532
+      e21: 0
+      e22: -0.985945
+      e23: 57.79
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01a (8)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 4432020e36e26f946a400515834f11b7, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 434bfd6528d84e643ade0d2cd5c6fe1b, type: 2}
+    matrix:
+      e00: 1.3711725
+      e01: 0
+      e02: -1.0543603
+      e03: -231.9
+      e10: 0
+      e11: 1.7296789
+      e12: 0
+      e13: 138.6
+      e20: 1.0543604
+      e21: 0
+      e22: 1.3711723
+      e23: -109.47674
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_cloud_02
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.5335582
+      e01: 0
+      e02: -1.9797516
+      e03: 81.41804
+      e10: 0
+      e11: 2.5042403
+      e12: 0
+      e13: 21.116
+      e20: 1.979751
+      e21: 0
+      e22: 1.5335587
+      e23: 113.99144
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (37)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 82188904581423c4a9ed3fbf3286ccdd, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.3045819
+      e01: 0
+      e02: 0
+      e03: 61.38
+      e10: 0
+      e11: 1.3045818
+      e12: 0
+      e13: 21.991
+      e20: 0
+      e21: 0
+      e22: 1.3045818
+      e23: 48.72
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_plant_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: d4d6eed92fb93e948b95c2fc4d1f6f8d, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.7425608
+      e01: 0
+      e02: 0.6697786
+      e03: 68.684616
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.04
+      e20: -0.6697786
+      e21: 0
+      e22: 0.7425608
+      e23: 41.235344
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01a (4)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 87dc0b67e5fe70f40a31e17b0c0058b4, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.53573084
+      e01: 0
+      e02: 0.8443889
+      e03: -48.4
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 19.9
+      e20: -0.8443889
+      e21: 0
+      e22: -0.53573084
+      e23: 161.5
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_hill_small_02 (3)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: f97780a5b4f3ed64ca0fe117ef736a11, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.61375886
+      e01: 0
+      e02: 1.1431789
+      e03: 67.24
+      e10: 0
+      e11: 1.5385951
+      e12: 0
+      e13: 21.45
+      e20: -1.1431789
+      e21: 0
+      e22: -0.61375886
+      e23: 51.75
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_flower_03 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.98211443
+      e01: 0
+      e02: 1.736866
+      e03: -31.293533
+      e10: 0
+      e11: 1.9953066
+      e12: 0
+      e13: 21.223
+      e20: -1.736866
+      e21: 0
+      e22: -0.9821144
+      e23: 35.148384
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (3)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c191cc4231bc1a940986671275027664, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.2745624
+      e01: 0
+      e02: 0
+      e03: 71.8
+      e10: 0
+      e11: 1.2745624
+      e12: 0
+      e13: 21.87
+      e20: 0
+      e21: 0
+      e22: 1.2745624
+      e23: 23.97
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01a
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -1.5152524
+      e01: 0
+      e02: 0.60707647
+      e03: -9.985764
+      e10: 0
+      e11: 1.6323384
+      e12: 0
+      e13: 21.307
+      e20: -0.60707647
+      e21: 0
+      e22: -1.5152524
+      e23: -33.86039
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (16)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 58c79ebc04f48c74fa4869c3f7d941fd, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.9936964
+      e01: 0
+      e02: -0.11210483
+      e03: 55.5
+      e10: 0
+      e11: 1.10196
+      e12: 0
+      e13: 21.85
+      e20: 0.11210483
+      e21: 0
+      e22: 0.9936964
+      e23: 82.9
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_pine_01 (6)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: b75a02a185084be49bc0ead09438de21, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.25322205
+      e01: 0
+      e02: -0.9674083
+      e03: 80.648125
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.48
+      e20: 0.9674083
+      e21: 0
+      e22: 0.25322205
+      e23: 41.882137
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_sand_01 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -1.8707527
+      e01: 0
+      e02: 0.7982585
+      e03: 27.947773
+      e10: 0
+      e11: 2.0339425
+      e12: 0
+      e13: 21.214
+      e20: -0.7982585
+      e21: 0
+      e22: -1.8707527
+      e23: -23.964771
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (17)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c191cc4231bc1a940986671275027664, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.6989212
+      e01: 0
+      e02: -1.2006584
+      e03: 73.77
+      e10: 0
+      e11: 1.38927
+      e12: 0
+      e13: 21.31
+      e20: 1.2006584
+      e21: 0
+      e22: -0.6989212
+      e23: 41.07
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01a (7)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 4a9eb490516647a4d8765165bfb9cf47, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 88.08
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.47
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 65.15
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_package_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: a90ec1b8be596134b912428bfce1f226, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.99961925
+      e01: 0
+      e02: -1.2904611
+      e03: -10.083878
+      e10: 0
+      e11: 1.6323384
+      e12: 0
+      e13: 21.094
+      e20: 1.2904611
+      e21: 0
+      e22: 0.99961925
+      e23: 26.151615
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_02
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.5335582
+      e01: 0
+      e02: -1.979751
+      e03: 109.12685
+      e10: 0
+      e11: 2.50424
+      e12: 0
+      e13: 21.116
+      e20: 1.979751
+      e21: 0
+      e22: 1.5335582
+      e23: 174.38342
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (39)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -2.324613
+      e01: 0
+      e02: 0.9313422
+      e03: 95.23193
+      e10: 0
+      e11: 2.5042403
+      e12: 0
+      e13: 21.116
+      e20: -0.9313418
+      e21: 0
+      e22: -2.3246138
+      e23: 51.05828
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (25)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 70fbff8150321794f8532fef4f4d7c98, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.31253818
+      e01: 0.024363047
+      e02: -0.94959277
+      e03: 84.08946
+      e10: 0.03294401
+      e11: 0.99879164
+      e12: 0.036468133
+      e13: 22.351532
+      e20: 0.9493337
+      e21: -0.042681083
+      e22: 0.31135798
+      e23: 65.91822
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_path_01b (10)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c191cc4231bc1a940986671275027664, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.27456
+      e01: 0
+      e02: 0
+      e03: 86.01
+      e10: 0
+      e11: 1.27456
+      e12: 0
+      e13: 21.754
+      e20: 0
+      e21: 0
+      e22: 1.27456
+      e23: 53.539997
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01a (11)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 58c79ebc04f48c74fa4869c3f7d941fd, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.40535247
+      e01: 0
+      e02: 0.9141605
+      e03: 50.08
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.27
+      e20: -0.9141605
+      e21: 0
+      e22: 0.40535247
+      e23: 33.29
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_pine_01 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: f34a4e9b86005de4da2625205407868e, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.43602347
+      e01: 0.060859654
+      e02: -0.8978752
+      e03: 59.222645
+      e10: -0.07326508
+      e11: 0.9967994
+      e12: 0.031986155
+      e13: 22.805464
+      e20: 0.8969481
+      e21: 0.051836178
+      e22: 0.43908685
+      e23: 38.319706
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wagon_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -1.41751
+      e01: 0
+      e02: 2.5068626
+      e03: 89.23628
+      e10: 0
+      e11: 2.8798764
+      e12: 0
+      e13: 21.028
+      e20: -2.5068617
+      e21: 0
+      e22: -1.4175106
+      e23: 77.172195
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (29)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: c191cc4231bc1a940986671275027664, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.3892704
+      e01: 0
+      e02: 0
+      e03: 61.44
+      e10: 0
+      e11: 1.3892704
+      e12: 0
+      e13: 21.61
+      e20: 0
+      e21: 0
+      e22: 1.3892704
+      e23: 59.91
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_grass_small_01a (3)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 70fbff8150321794f8532fef4f4d7c98, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.5184058
+      e01: 0.000023697343
+      e02: 0.8551348
+      e03: 79.5
+      e10: 0.000009542135
+      e11: 1
+      e12: -0.000033496523
+      e13: 21.69
+      e20: -0.8551348
+      e21: 0.000025524601
+      e22: 0.5184058
+      e23: 26.380001
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_path_01b (5)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 58c79ebc04f48c74fa4869c3f7d941fd, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 60.49
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 21.61
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 50.77
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_pine_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 15977c94193725642b83e5c7be73b2e8, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1.0165284
+      e01: 0
+      e02: 0.2943393
+      e03: 12.984291
+      e10: 0
+      e11: 1.0582843
+      e12: 0
+      e13: 21.283466
+      e20: -0.2943393
+      e21: 0
+      e22: 1.0165284
+      e23: 22.332333
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_tree_01 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 1716e599fb056014ca8f5786b3a82fcf, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.08697677
+      e01: 0
+      e02: 0.99621046
+      e03: 55.209995
+      e10: 0
+      e11: 1.326911
+      e12: 0
+      e13: 21.65
+      e20: -0.99621046
+      e21: 0
+      e22: 0.08697677
+      e23: 41.29
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_sack_open_01 (1)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 9d123ff5b15c0bd4fbd33779e2acdbd9, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.69471943
+      e01: 0
+      e02: 0.7192809
+      e03: -106.600006
+      e10: 0
+      e11: 1.3905497
+      e12: 0
+      e13: 8.1
+      e20: -0.7192809
+      e21: 0
+      e22: -0.69471943
+      e23: -125.80001
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_mountain_01 (2)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: 264414c28ea0fbb41b924fd17d9228b3, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: -0.803457
+      e01: 0
+      e02: 1.420911
+      e03: 29.378536
+      e10: 0
+      e11: 1.6323384
+      e12: 0
+      e13: 21.307
+      e20: -1.420911
+      e21: 0
+      e22: -0.803457
+      e23: 29.3643
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_terrain_grass_01 (8)
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: caf770415cf8b3745b977df80c57628b, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 87.32
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 22.2
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 65.82
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_barrel_01
+  - flyweightData:
+      mesh: {fileID: 4300000, guid: f867a2534aa85914d9e6b62f681cdf69, type: 3}
+      materials:
+      - {fileID: 2100000, guid: 58d53420af384224ea4cfee8973d18cb, type: 2}
+    matrix:
+      e00: 0.22221778
+      e01: -0.012843261
+      e02: -0.97491306
+      e03: 80.911156
+      e10: 0.057699542
+      e11: 0.998334
+      e12: -0.000000005587938
+      e13: 21.91097
+      e20: 0.97328883
+      e21: -0.056251973
+      e22: 0.22258858
+      e23: 58.61503
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    name: rpgpp_lt_wood_path_01b (10)
