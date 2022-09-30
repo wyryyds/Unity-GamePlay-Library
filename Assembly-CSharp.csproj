@@ -71,6 +71,8 @@
     <Compile Include="Assets\ProjectBase\Vedio\VedioMgr.cs" />
     <Compile Include="Assets\MyScripts\Scripts\Test.cs" />
     <Compile Include="Assets\ProjectBase\Mono\MonoMgr.cs" />
+    <Compile Include="Assets\MyScripts\AI\Vehicle.cs" />
+    <Compile Include="Assets\MyScripts\AI\Steering.cs" />
     <Compile Include="Assets\MyScripts\Scripts\Data.cs" />
     <Compile Include="Assets\ProjectBase\Base\BaseManager.cs" />
     <Compile Include="Assets\MyScripts\Shuffle\MapGenerator.cs" />
@@ -88,8 +90,6 @@
     <Compile Include="Assets\ProjectBase\Event\EventCenter.cs" />
     <Compile Include="Assets\ProjectBase\Input\InputMgr.cs" />
     <Compile Include="Assets\ProjectBase\Pool\PoolMgr.cs" />
-    <Compile Include="Assets\MyScripts\AI\Vehicle.cs" />
-    <Compile Include="Assets\MyScripts\AI\Steering.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
