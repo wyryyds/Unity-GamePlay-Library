@@ -59,6 +59,7 @@
     <Compile Include="Assets\ProjectBase\Base\SingletonMono.cs" />
     <Compile Include="Assets\ProjectBase\AStarMgr.cs" />
     <Compile Include="Assets\MyScripts\Scripts\CameraFallow.cs" />
+    <Compile Include="Assets\MyScripts\Shuffle\Utilities.cs" />
     <Compile Include="Assets\ProjectBase\Scenes\ScenesMgr.cs" />
     <Compile Include="Assets\ProjectBase\AStarNode.cs" />
     <Compile Include="Assets\ProjectBase\Base\SingletonAutoMono.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\ProjectBase\Mono\MonoMgr.cs" />
     <Compile Include="Assets\MyScripts\Scripts\Data.cs" />
     <Compile Include="Assets\ProjectBase\Base\BaseManager.cs" />
+    <Compile Include="Assets\MyScripts\Shuffle\MapGenerator.cs" />
     <Compile Include="Assets\FlyWeightPattern\Scripts\FlyWeightSceneSaver.cs" />
     <Compile Include="Assets\FlyWeightPattern\Scripts\Matrix.cs" />
     <Compile Include="Assets\MyScripts\Scripts\ExcelTool.cs" />
@@ -86,8 +88,8 @@
     <Compile Include="Assets\ProjectBase\Event\EventCenter.cs" />
     <Compile Include="Assets\ProjectBase\Input\InputMgr.cs" />
     <Compile Include="Assets\ProjectBase\Pool\PoolMgr.cs" />
-    <Compile Include="Assets\MyScripts\Shuffle\MapGenerator.cs" />
-    <Compile Include="Assets\MyScripts\Shuffle\Utilities.cs" />
+    <Compile Include="Assets\MyScripts\AI\Vehicle.cs" />
+    <Compile Include="Assets\MyScripts\AI\Steering.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
