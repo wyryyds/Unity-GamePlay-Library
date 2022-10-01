@@ -12,7 +12,7 @@ public class Vehicle : MonoBehaviour
     /// <summary>
     /// 行为列表
     /// </summary>
-    private Steering[] Steerings;
+    public Steering[] Steerings;
 
     /// <summary>
     /// 最大速度
@@ -50,7 +50,17 @@ public class Vehicle : MonoBehaviour
     /// 缓存最大速度的平方,避免反复计算平方的开销
     /// </summary>
     protected float sqrMaxspeed;
-    protected void Start()
+
+    /// <summary>
+    /// 是否只在地面上
+    /// </summary>
+    public bool IsPlaner;
+
+    /// <summary>
+    /// 控制转向的速度
+    /// </summary>
+    public float damping=0.9f;
+    protected virtual void Start()
     {
         steeringForce = Vector3.zero;
         Steerings = GetComponents<Steering>();

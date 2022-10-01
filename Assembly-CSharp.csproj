@@ -72,7 +72,7 @@
     <Compile Include="Assets\MyScripts\Scripts\Test.cs" />
     <Compile Include="Assets\ProjectBase\Mono\MonoMgr.cs" />
     <Compile Include="Assets\MyScripts\AI\Vehicle.cs" />
-    <Compile Include="Assets\MyScripts\AI\Steering.cs" />
+    <Compile Include="Assets\MyScripts\AI\Steerings\Steering.cs" />
     <Compile Include="Assets\MyScripts\Scripts\Data.cs" />
     <Compile Include="Assets\ProjectBase\Base\BaseManager.cs" />
     <Compile Include="Assets\MyScripts\Shuffle\MapGenerator.cs" />
@@ -84,12 +84,16 @@
     <Compile Include="Assets\ProjectBase\UI\UIManager.cs" />
     <Compile Include="Assets\MyScripts\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\ProjectBase\Music\MusicMgr.cs" />
+    <Compile Include="Assets\MyScripts\AI\AILocomotion.cs" />
     <Compile Include="Assets\MyScripts\AStar\AStarManager.cs" />
     <Compile Include="Assets\ProjectBase\Event\EventCenter_old.cs" />
     <Compile Include="Assets\ProjectBase\Res\ResMgr.cs" />
     <Compile Include="Assets\ProjectBase\Event\EventCenter.cs" />
     <Compile Include="Assets\ProjectBase\Input\InputMgr.cs" />
     <Compile Include="Assets\ProjectBase\Pool\PoolMgr.cs" />
+    <Compile Include="Assets\MyScripts\AI\Steerings\Steering_ForSeek.cs" />
+    <Compile Include="Assets\MyScripts\AI\Steerings\Steering_ForFlee.cs" />
+    <Compile Include="Assets\MyScripts\AI\Steerings\Steering_Arrive.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
