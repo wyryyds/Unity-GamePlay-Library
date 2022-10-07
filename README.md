@@ -1,5 +1,24 @@
-# Personal-attempt
-## Some attempts at personal development, some manager frameworks, commonly used tools, and some algorithmic explorations。  
-The whole project doesn't have very standard file management, so it may take you a little time to find the specific features of a scene  
+# Personal-attempt  
+个人开发的一些尝试，一些管理器框架，常用的工具，以及一些算法的探索  
+由于整个项目没有做很好的文件管理，这可能会导致你观察起来不是那么的直觉。  
+## 整个项目包括几大模块：角色控制，地图生成，AI  
 
+已经实现的有：  
+## 角色控制  
+### 轻量易调整的第三人称角色控制器  
+基于Unity CharacterController实现的高轻便角色控制，你可以随心所欲地调节你的人物的各个参数比如转向速度，所有的移动都是基于物理准确的模拟，同时对跳跃的手感进行了优化。当然，你也可以非常方便地调整你的相机控制，比如相机的转速以及角度，插值的运算让相机的移动非常平滑。  
+
+## 地图加载  
+### 享元模式下的大地图加载
+利用协程以及享元模式实现的大地图加载。它将支持你的由各预制体组成的地图实现快速的加载策略，利用Unity底层的材质共享以及预制体原理。同时你可以搭配协程采取一定的策略混合你的shader实现具有感染力的加载方式。  
+### 迷宫地图的生成
+由Knuth-Durstenfeld Shuffle算法跟Flood Fill洪水填充算法实现的城市，迷宫之类的地形生成算法，洗牌算法保证了地图的随机性，而洪水填充算法保证了道路的可通性，如果你需要实现简单的随机迷宫制作，这会是非常好的方法。  
+
+
+## AI
+### A*寻路
+手写的A*网格寻路算法，毫无疑问，它的学习性高于它的实用性，相比较NavmeshAgent跟Pathfinding插件，它是那么的不适用于你快速地项目开发。
+### 操作列表操纵的AI个体行为
+实现的最简单AI交通工具类，操控力的最终策略采取的是加权截断综合，AI具有靠近，原理，抵达等操控力。
+### AI的群体效应
 
