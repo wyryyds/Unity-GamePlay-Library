@@ -1,3 +1,5 @@
 # Personal-attempt
- 个人开发的一些尝试，一些管理器框架，常用的工具，以及一些算法的探索
- 111
+## Some attempts at personal development, some manager frameworks, commonly used tools, and some algorithmic explorations。  
+The whole project doesn't have very standard file management, so it may take you a little time to find the specific features of a scene  
+
+
