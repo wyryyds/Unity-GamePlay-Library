@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\ProjectBase\Scenes\ScenesMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\AStarNode.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonAutoMono.cs" />
+    <Compile Include="Assets\Scripts\AI\AI_02\GenerateBotsForQueue.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoController.cs" />
     <Compile Include="Assets\Scripts\AI\AStar\AstarNode.cs" />
     <Compile Include="Assets\Scripts\PlayerController\ItemManager.cs" />
@@ -94,7 +95,7 @@
     <Compile Include="Assets\Scripts\ProjectBase\Event\EventCenter.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Input\InputMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Pool\PoolMgr.cs" />
-    <Compile Include="Assets\Scripts\AI\AI_02\GenerateBotsForQueue.cs" />
+    <Compile Include="Assets\Scripts\AI\Steerings\Steering_Pursuit.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
