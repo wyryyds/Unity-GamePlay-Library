@@ -28,7 +28,7 @@ public class GenerateBotsForQueue : MonoBehaviour
         }
     }
 
-    public void M_DrawGizmos()
+    public void MDrawGizmos()
     {
         Vector3 centerPos = new Vector3(minX + (maxX - minX) / 2f, Yvalue, minZ + (minZ + MaxZ) / 2f);
         Vector3 size = new Vector3(maxX - minX, 5f, MaxZ - minZ);

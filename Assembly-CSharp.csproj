@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonMono.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\AStarMgr.cs" />
     <Compile Include="Assets\Scripts\PlayerController\CameraFallow.cs" />
+    <Compile Include="Assets\Scripts\AI\Steerings\Steering_Pursuit.cs" />
     <Compile Include="Assets\Scripts\Shuffle\Utilities.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Scenes\ScenesMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\AStarNode.cs" />
@@ -95,7 +96,8 @@
     <Compile Include="Assets\Scripts\ProjectBase\Event\EventCenter.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Input\InputMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Pool\PoolMgr.cs" />
-    <Compile Include="Assets\Scripts\AI\Steerings\Steering_Pursuit.cs" />
+    <Compile Include="Assets\Scripts\AI\Steerings\Steering_Evade.cs" />
+    <Compile Include="Assets\Scripts\AI\Steerings\Steering_Wander.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
