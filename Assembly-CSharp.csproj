@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\ProjectBase\AStarMgr.cs" />
     <Compile Include="Assets\Scripts\PlayerController\CameraFallow.cs" />
     <Compile Include="Assets\Scripts\AI\Steerings\Steering_Pursuit.cs" />
+    <Compile Include="Assets\Scripts\AI\Steerings\Steering_FollowPath.cs" />
     <Compile Include="Assets\Scripts\Shuffle\Utilities.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Scenes\ScenesMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\AStarNode.cs" />
@@ -69,10 +70,12 @@
     <Compile Include="Assets\Scripts\AI\AI_02\GenerateBotsForQueue.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoController.cs" />
     <Compile Include="Assets\Scripts\AI\AStar\AstarNode.cs" />
+    <Compile Include="Assets\Scripts\AI\Steerings\Steering_Evade.cs" />
     <Compile Include="Assets\Scripts\PlayerController\ItemManager.cs" />
     <Compile Include="Assets\FlyWeightPattern\Scripts\FlyWeightInstanceGeneration.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\UI\BasePanel.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Vedio\VedioMgr.cs" />
+    <Compile Include="Assets\Scripts\EditorTool\EditorTool.cs" />
     <Compile Include="Assets\Scripts\PlayerController\Test.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoMgr.cs" />
     <Compile Include="Assets\Scripts\AI\Vehicle\Vehicle.cs" />
@@ -92,12 +95,14 @@
     <Compile Include="Assets\Scripts\AI\Vehicle\AILocomotion.cs" />
     <Compile Include="Assets\Scripts\AI\AStar\AStarManager.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Event\EventCenter_old.cs" />
+    <Compile Include="Assets\Scripts\AI\Steerings\Steering_Wander.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Res\ResMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Event\EventCenter.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Input\InputMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Pool\PoolMgr.cs" />
-    <Compile Include="Assets\Scripts\AI\Steerings\Steering_Evade.cs" />
-    <Compile Include="Assets\Scripts\AI\Steerings\Steering_Wander.cs" />
+    <Compile Include="Assets\Scripts\EditorTool\PoolManager.cs" />
+    <Compile Include="Assets\Scripts\EditorTool\PoolItem.cs" />
+    <Compile Include="Assets\Scripts\EditorTool\Test01.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
