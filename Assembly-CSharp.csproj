@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\ProjectBase\AStarNode.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Base\SingletonAutoMono.cs" />
     <Compile Include="Assets\Scripts\AI\AI_02\GenerateBotsForQueue.cs" />
+    <Compile Include="Assets\Scripts\EditorTool\Test01.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Mono\MonoController.cs" />
     <Compile Include="Assets\Scripts\AI\AStar\AstarNode.cs" />
     <Compile Include="Assets\Scripts\AI\Steerings\Steering_Evade.cs" />
@@ -93,16 +94,15 @@
     <Compile Include="Assets\Scripts\PlayerController\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Music\MusicMgr.cs" />
     <Compile Include="Assets\Scripts\AI\Vehicle\AILocomotion.cs" />
+    <Compile Include="Assets\Scripts\EditorTool\PoolItem.cs" />
     <Compile Include="Assets\Scripts\AI\AStar\AStarManager.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Event\EventCenter_old.cs" />
+    <Compile Include="Assets\Scripts\EditorTool\PoolManager.cs" />
     <Compile Include="Assets\Scripts\AI\Steerings\Steering_Wander.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Res\ResMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Event\EventCenter.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Input\InputMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Pool\PoolMgr.cs" />
-    <Compile Include="Assets\Scripts\EditorTool\PoolManager.cs" />
-    <Compile Include="Assets\Scripts\EditorTool\PoolItem.cs" />
-    <Compile Include="Assets\Scripts\EditorTool\Test01.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

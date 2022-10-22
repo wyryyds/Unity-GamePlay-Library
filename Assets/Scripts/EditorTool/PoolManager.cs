@@ -114,6 +114,60 @@ namespace HAIPoolTool
             }
         }
         /// <summary>
+        /// 取出池中全部对象
+        /// </summary>
+        /// <param name="tag">池名称</param>
+        /// <returns></returns>
+        public List<GameObject> GetPoolAllObjects(string tag)
+        {
+            List<GameObject> res=new List<GameObject>();
+            if (poolObjectDictionary.ContainsKey(tag))
+            {
+                while(poolObjectDictionary[tag].Count!=0)
+                {
+                    var go = poolObjectDictionary[tag].Dequeue();
+                    go.SetActive(value: true);
+                    res.Add(go);
+                }
+                return res;
+            }      
+            else
+            {
+                Debug.Log("No Pool Of This Name");
+                return null;
+            }
+        }
+        /// <summary>
+        /// 回收对象放入池中
+        /// </summary>
+        /// <param name="tag">池名</param>
+        /// <param name="ReGO">对象</param>
+        public void RecycleObjectToPool(string tag, GameObject ReGO)
+        {
+            if(poolObjectDictionary.ContainsKey(tag))
+            {
+                poolObjectDictionary[tag].Enqueue(ReGO);
+                ReGO.SetActive(value: false);
+            }
+            else
+            {
+                Debug.Log("No Pool Of This Name,Recycling failed!");
+            }
+        }
+
+        public void ClearAnyPool(string tag)
+        {
+            poolObjectDictionary[tag].Clear();
+            itemDictionary.Remove(tag);
+            poolMaxCountDic.Remove(tag);
+        }
+        public void ClearAllPool()
+        {
+            poolObjectDictionary.Clear();
+            itemDictionary.Clear();
+            poolMaxCountDic.Clear();
+        }
+        /// <summary>
         /// 根据itemToPool list初始化对象池
         /// </summary>
         /// <param name="index">itemToPool索引</param>
