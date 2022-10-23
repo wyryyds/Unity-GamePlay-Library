@@ -4,6 +4,13 @@ using UnityEngine;
 
 namespace HAIPoolTool
 {
+
+    public struct PoolItemDate
+    {
+        PoolItem poolItem;
+        int maxCount;
+        GameObject parentCOde;
+    }
     [AddComponentMenu("HAIPoolTool/PoolManager")]
     public class PoolManager : MonoBehaviour
     {
@@ -13,9 +20,11 @@ namespace HAIPoolTool
         public static PoolManager Instance { get ; private set; }
 
         public List<PoolItem> itemsToPool;
+        
         public Dictionary<string, PoolItem> itemDictionary;
         public Dictionary<string, int> poolMaxCountDic;
-        public Dictionary<string, Queue<GameObject>> poolObjectDictionary;
+        public Dictionary<string, Queue<GameObject> > poolObjectDictionary;
+        public Dictionary<string, Queue<GameObject>> outOfPoolObjDic;
         public Queue<GameObject> poolObjects;
 
         protected void Awake()
@@ -24,6 +33,7 @@ namespace HAIPoolTool
             itemDictionary = new Dictionary<string, PoolItem>();
             poolObjectDictionary = new Dictionary<string, Queue<GameObject>>();
             poolMaxCountDic = new Dictionary<string, int>();
+            outOfPoolObjDic = new Dictionary<string, Queue<GameObject>>();
             for(int i=0;i<itemsToPool.Count;i++)
             {
                 GameObject parentNode = new GameObject();
@@ -32,6 +42,7 @@ namespace HAIPoolTool
                 ObjPoolItemToPool(i,parentNode.transform);
                 itemDictionary.Add(itemsToPool[i].tag, itemsToPool[i]);
                 poolMaxCountDic.Add(itemsToPool[i].tag, itemsToPool[i].countToPool);
+                outOfPoolObjDic.Add(itemsToPool[i].tag, new Queue<GameObject>());
             }
         }
         /// <summary>
@@ -52,6 +63,7 @@ namespace HAIPoolTool
                 ObjPoolItemToPool(itemsToPool.Count - 1,parentNode.transform);
                 itemDictionary.Add(tag, item);
                 poolMaxCountDic.Add(tag, Count);
+                outOfPoolObjDic.Add(tag, new Queue<GameObject>());
             }
         }
         /// <summary>
@@ -66,6 +78,7 @@ namespace HAIPoolTool
                 if (poolObjectDictionary[tag].Count > 0)
                 {
                     var go = poolObjectDictionary[tag].Dequeue();
+                    outOfPoolObjDic[tag].Enqueue(go);
                     go.SetActive(value:true);
                     return go;
                 }
@@ -73,6 +86,7 @@ namespace HAIPoolTool
                 {
                     ExpandPool(tag);
                     var go = poolObjectDictionary[tag].Dequeue();
+                    outOfPoolObjDic[tag].Enqueue(go);
                     go.SetActive(value: true);
                     return go;
                 }
@@ -102,6 +116,7 @@ namespace HAIPoolTool
                 while (tempCount++ < Count)
                 {
                     var go = poolObjectDictionary[tag].Dequeue();
+                    outOfPoolObjDic[tag].Enqueue(go);
                     go.SetActive(value: true);
                     res.Add(go);
                 }
@@ -128,6 +143,7 @@ namespace HAIPoolTool
                     var go = poolObjectDictionary[tag].Dequeue();
                     go.SetActive(value: true);
                     res.Add(go);
+                    outOfPoolObjDic[tag].Enqueue(go);
                 }
                 return res;
             }      
@@ -142,12 +158,13 @@ namespace HAIPoolTool
         /// </summary>
         /// <param name="tag">池名</param>
         /// <param name="ReGO">对象</param>
-        public void RecycleObjectToPool(string tag, GameObject ReGO)
+        public void RecycleObjectToPool(string tag,GameObject poolObj)
         {
             if(poolObjectDictionary.ContainsKey(tag))
             {
-                poolObjectDictionary[tag].Enqueue(ReGO);
-                ReGO.SetActive(value: false);
+                outOfPoolObjDic[tag].Dequeue();
+                poolObjectDictionary[tag].Enqueue(poolObj);
+                poolObj.SetActive(value: false);
             }
             else
             {
@@ -157,15 +174,50 @@ namespace HAIPoolTool
 
         public void ClearAnyPool(string tag)
         {
-            poolObjectDictionary[tag].Clear();
-            itemDictionary.Remove(tag);
-            poolMaxCountDic.Remove(tag);
+            if (poolObjectDictionary.ContainsKey(tag))
+            {
+                while (outOfPoolObjDic[tag].Count > 0)
+                {
+                    var go = outOfPoolObjDic[tag].Dequeue();
+                    Destroy(go);
+                }
+                outOfPoolObjDic.Remove(tag);
+
+                for (int i = 0; i < itemsToPool.Count; i++)
+                {
+                    if (itemsToPool[i].tag == tag)
+                    {
+                        itemsToPool.RemoveAt(i);
+                    }
+                }
+                poolObjectDictionary.Remove(tag);
+                itemDictionary.Remove(tag);
+                poolMaxCountDic.Remove(tag);
+                Destroy(transform.Find(tag).gameObject);
+            }
         }
         public void ClearAllPool()
         {
+            for(int i=0;i<itemsToPool.Count;i++)
+            {
+                var tag = itemsToPool[i].tag;
+                if(outOfPoolObjDic[tag]!=null)
+                {
+                    while(outOfPoolObjDic[tag].Count>0)
+                    {
+                        var go = outOfPoolObjDic[tag].Dequeue();
+                        Destroy(go);
+                    }
+                }
+                poolObjectDictionary.Remove(tag);
+                outOfPoolObjDic.Remove(tag);
+                Destroy(transform.Find(tag).gameObject);
+            }
             poolObjectDictionary.Clear();
+            outOfPoolObjDic.Clear();
             itemDictionary.Clear();
             poolMaxCountDic.Clear();
+            itemsToPool.Clear();
         }
         /// <summary>
         /// 根据itemToPool list初始化对象池
