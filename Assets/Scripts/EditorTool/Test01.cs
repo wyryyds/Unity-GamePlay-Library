@@ -13,7 +13,6 @@ public class Test01 : MonoBehaviour
         GameObject t = new GameObject();
         PoolManager.Instance.AddToPool("t", t, 100);
         PoolManager.Instance.GetPoolObjects("t", 20);
-        Debug.Log(PoolManager.Instance.outOfPoolObjDic);
     }
 
     IEnumerator getObj()
@@ -21,10 +20,10 @@ public class Test01 : MonoBehaviour
         int count = 20;
         while (count-- > 0)
         {
-            var obs=PoolManager.Instance.GetPoolObject("Obs");
-            obs.transform.SetParent(transform);
+            var obs2=PoolManager.Instance.GetPoolObject("Obs");
+            obs2.transform.SetParent(transform);
+
             yield return new WaitForSeconds(1f);
-            PoolManager.Instance.RecycleObjectToPool("Obs",obs);
         }
          flag= true;
     }
@@ -33,7 +32,7 @@ public class Test01 : MonoBehaviour
     {
         if(flag)
         {
-            
+            PoolManager.Instance.RecycleObjectsToPool("Obs");
         }
     }
 }

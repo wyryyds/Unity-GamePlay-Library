@@ -5,12 +5,6 @@ using UnityEngine;
 namespace HAIPoolTool
 {
 
-    public struct PoolItemDate
-    {
-        PoolItem poolItem;
-        int maxCount;
-        GameObject parentCOde;
-    }
     [AddComponentMenu("HAIPoolTool/PoolManager")]
     public class PoolManager : MonoBehaviour
     {
@@ -93,7 +87,9 @@ namespace HAIPoolTool
             }
             else
             {
-                Debug.Log("No Pool Of This Name");
+#if UNITY_EDITOR
+                Debug.LogWarning("No Pool Of This Name");
+#endif
                 return null;
             }
         }
@@ -124,7 +120,9 @@ namespace HAIPoolTool
             }
             else
             {
+#if UNITY_EDITOR
                 Debug.Log("No Pool Of This Name");
+#endif
                 return null;
             }
         }
@@ -149,7 +147,9 @@ namespace HAIPoolTool
             }      
             else
             {
+#if UNITY_EDITOR
                 Debug.Log("No Pool Of This Name");
+#endif
                 return null;
             }
         }
@@ -164,11 +164,33 @@ namespace HAIPoolTool
             {
                 outOfPoolObjDic[tag].Dequeue();
                 poolObjectDictionary[tag].Enqueue(poolObj);
+                poolObj.transform.SetParent(this.transform.Find(tag));
                 poolObj.SetActive(value: false);
             }
             else
             {
+#if UNITY_EDITOR
                 Debug.Log("No Pool Of This Name,Recycling failed!");
+#endif
+            }
+        }
+        public void RecycleObjectsToPool(string tag)
+        {
+            if (poolObjectDictionary.ContainsKey(tag))
+            {
+                if (outOfPoolObjDic[tag].Count > 0)
+                {
+                    var poolObj = outOfPoolObjDic[tag].Dequeue();
+                    poolObjectDictionary[tag].Enqueue(poolObj);
+                    poolObj.transform.SetParent(this.transform.Find(tag));
+                    poolObj.SetActive(value: false);
+                }
+            }
+            else
+            {
+#if UNITY_EDITOR
+                Debug.Log("No Pool Of This Name,Recycling failed!");
+#endif
             }
         }
 
