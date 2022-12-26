@@ -93,6 +93,7 @@
     <Compile Include="Assets\Scripts\ProjectBase\UI\UIManager.cs" />
     <Compile Include="Assets\Scripts\PlayerController\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Music\MusicMgr.cs" />
+    <Compile Include="Assets\Scripts\AnimationController\Enemy\EnemyAnimationController.cs" />
     <Compile Include="Assets\Scripts\AI\Vehicle\AILocomotion.cs" />
     <Compile Include="Assets\Scripts\EditorTool\PoolItem.cs" />
     <Compile Include="Assets\Scripts\AI\AStar\AStarManager.cs" />
@@ -719,6 +720,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{C9C941CB-FCDB-7166-478C-CB3D5D8D6715}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
