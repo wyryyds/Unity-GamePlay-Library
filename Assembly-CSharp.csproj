@@ -104,6 +104,7 @@
     <Compile Include="Assets\Scripts\ProjectBase\Event\EventCenter.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Input\InputMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Pool\PoolMgr.cs" />
+    <Compile Include="Assets\BehaviorDesigner\Scripts\BehaviorLoad.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -342,6 +343,9 @@
     </Reference>
     <Reference Include="Excel">
       <HintPath>Assets\Plugins\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Runtime">
+      <HintPath>Assets\Plugins\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\unity hub\2020.3.33f1c2\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

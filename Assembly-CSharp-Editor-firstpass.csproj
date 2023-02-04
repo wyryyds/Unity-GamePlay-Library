@@ -72,6 +72,16 @@
     <Compile Include="Assets\Plugins\NPBehave\Editor\Tests\Decorator\RepeaterTest.cs" />
     <Compile Include="Assets\Plugins\NPBehave\Editor\DebuggerEditor.cs" />
     <Compile Include="Assets\Plugins\NPBehave\Editor\Tests\Composite\RandomSequenceTest.cs" />
+    <Compile Include="Assets\Plugins\Behavior Designer\Editor\Object Drawers\IntSliderDrawer.cs" />
+    <Compile Include="Assets\Plugins\Behavior Designer\Editor\BehaviorTreeInspector.cs" />
+    <Compile Include="Assets\Plugins\Behavior Designer\Editor\Object Drawers\StackedActionDrawer.cs" />
+    <Compile Include="Assets\Plugins\Behavior Designer\Editor\Object Drawers\StackedConditionalDrawer.cs" />
+    <Compile Include="Assets\Plugins\Behavior Designer\Editor\Object Drawers\FloatSliderDrawer.cs" />
+    <Compile Include="Assets\Plugins\Behavior Designer\Editor\ExternalBehaviorTreeInspector.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Plugins\Behavior Designer\Editor\BehaviorDesigner.Editor.dll" />
+    <None Include="Assets\Plugins\Behavior Designer\Editor\GridShader.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -331,6 +341,12 @@
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Runtime">
+      <HintPath>Assets\Plugins\Behavior Designer\Runtime\BehaviorDesigner.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BehaviorDesigner.Editor">
+      <HintPath>Assets\Plugins\Behavior Designer\Editor\BehaviorDesigner.Editor.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

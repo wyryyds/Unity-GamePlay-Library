@@ -15,11 +15,11 @@ D:/unity hub/PlayerTest/Personal-attempt
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53802
+61656
 Successfully changed project path to: D:/unity hub/PlayerTest/Personal-attempt
 D:/unity hub/PlayerTest/Personal-attempt
 Using Asset Import Pipeline V2.
-AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 28.79 ms, found 2 plugins.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 29.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1c2 (8e753a737e7b)
 [Subsystems] Discovering subsystems at path D:/unity hub/2020.3.33f1c2/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'D:/unity hub/2020.3.33f1c2/Editor/Data/Managed'
 Mono path[1] = 'D:/unity hub/2020.3.33f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/unity hub/2020.3.33f1c2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity hub/2020.3.33f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001039 seconds.
+Registered in 0.001017 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 26.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.440 seconds
+- Completed reload, in  0.438 seconds
 Domain Reload Profiling:
-	ReloadAssembly (441ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (438ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (333ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (332ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (100ms)
+			SetupTypeCache (99ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (130ms)
+			SetupLoadedEditorAssemblies (129ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (27ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (64ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (63ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,35 +73,35 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003616 seconds.
+Registered in 0.003213 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\unity hub\PlayerTest\Personal-attempt\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.754 seconds
+- Completed reload, in  0.749 seconds
 Domain Reload Profiling:
-	ReloadAssembly (755ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (749ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (596ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (593ms)
 			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (192ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (240ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (238ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (165ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (162ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -114,11 +114,11 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 second
 Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1623 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.7 MB.
-System memory in use after: 72.8 MB.
+System memory in use before: 72.8 MB.
+System memory in use after: 72.9 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2058.
-Total: 2.248500 ms (FindLiveObjects: 0.111800 ms CreateObjectMapping: 0.039500 ms MarkObjects: 2.041900 ms  DeleteObjects: 0.054600 ms)
+Total: 2.272500 ms (FindLiveObjects: 0.131500 ms CreateObjectMapping: 0.037300 ms MarkObjects: 2.047800 ms  DeleteObjects: 0.054300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,285 +133,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/NPBehave/README-Debugger.png
-  artifactKey: Guid(5de15f63003f51542b2f6019dceb50cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPBehave/README-Debugger.png using Guid(5de15f63003f51542b2f6019dceb50cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58543e72be1f0ffea22d29d18b5a7116') in 0.093593 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003484 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\unity hub\PlayerTest\Personal-attempt\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.728 seconds
-Domain Reload Profiling:
-	ReloadAssembly (729ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (582ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (198ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (222ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (152ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1617 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.6 MB.
-System memory in use after: 72.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2063.
-Total: 2.143800 ms (FindLiveObjects: 0.121800 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.966400 ms  DeleteObjects: 0.017100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  path: Assets/Plugins/NPBehave/Scripts/Decorator/BlackboardCondition.cs
+  artifactKey: Guid(6903af165ab9d414b9e24a34dced6226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/NPBehave/Scripts/Decorator/BlackboardCondition.cs using Guid(6903af165ab9d414b9e24a34dced6226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2304b79135a9bbab564c43b7d46c2d7a') in 0.027600 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.716911 seconds.
-  path: Assets/Plugins/NPBehave/Editor/Tests
-  artifactKey: Guid(0611db2cca3dfe74ca397d7d4cde2d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Editor/Tests using Guid(0611db2cca3dfe74ca397d7d4cde2d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f687bf33ea04c95bcd4b4391f32ad9') in 0.004191 seconds 
+  Time since last request: 0.000171 seconds.
+  path: Assets/Plugins/NPBehave/Scripts/Decorator
+  artifactKey: Guid(f7d624b3cbbea814dbb60ea3df678f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/NPBehave/Scripts/Decorator using Guid(f7d624b3cbbea814dbb60ea3df678f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb772ccd4487a31ce76e9936c159bf0b') in 0.001921 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.314584 seconds.
-  path: Assets/Plugins/NPBehave/README.md
-  artifactKey: Guid(5babdab4814f7d34684eddd099c1834b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/README.md using Guid(5babdab4814f7d34684eddd099c1834b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906d29e277a01e64bbefeb9bf32a4d30') in 0.014836 seconds 
+  Time since last request: 0.115185 seconds.
+  path: Assets/Plugins/NPBehave/Scripts/Decorator/BlackboardQuery.cs
+  artifactKey: Guid(ad2cb97a26f7dce47b15254d6120496f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/NPBehave/Scripts/Decorator/BlackboardQuery.cs using Guid(ad2cb97a26f7dce47b15254d6120496f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7158edbad403b15cef6f2d00e73670') in 0.002060 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.108955 seconds.
-  path: Assets/Plugins/NPBehave/README.txt
-  artifactKey: Guid(d032e6bcc299c1a45a0f8fb21b390b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/README.txt using Guid(d032e6bcc299c1a45a0f8fb21b390b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45051bf60aaeaa5e383332051c27d57b') in 0.009115 seconds 
+  Time since last request: 2.492674 seconds.
+  path: Assets/Plugins/NPBehave/Scripts/Decorator/Condition.cs
+  artifactKey: Guid(74d42d13c011d2a4f9210eeb0f487cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/NPBehave/Scripts/Decorator/Condition.cs using Guid(74d42d13c011d2a4f9210eeb0f487cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6748f43f433ebc0b3177cc71bdda0b7d') in 0.002139 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.356710 seconds.
-  path: Assets/Plugins/NPBehave/README_CH.md
-  artifactKey: Guid(4b342af989a373140a63b04de4f867ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/README_CH.md using Guid(4b342af989a373140a63b04de4f867ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1242580197375956f79c9ff90ab8dd1a') in 0.003050 seconds 
+  Time since last request: 8.160875 seconds.
+  path: Assets/Plugins/NPBehave/Scripts/Composite/RandomSelector.cs
+  artifactKey: Guid(cb0149a81be3af3439072b9fd56d2109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/NPBehave/Scripts/Composite/RandomSelector.cs using Guid(cb0149a81be3af3439072b9fd56d2109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb88fdf9d77706bcabfc3effb47fbd07') in 0.002224 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.406775 seconds.
-  path: Assets/Plugins/NPBehave/Scripts
-  artifactKey: Guid(da7cbfa0c266cfe4fa8bffdf7fd341d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Scripts using Guid(da7cbfa0c266cfe4fa8bffdf7fd341d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28396a00bab06e20b2f22177990ad557') in 0.002100 seconds 
+  Time since last request: 2.177388 seconds.
+  path: Assets/Plugins/NPBehave/Scripts/Composite/RandomSequence.cs
+  artifactKey: Guid(894324013051f5046a1eb591304f2f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/NPBehave/Scripts/Composite/RandomSequence.cs using Guid(894324013051f5046a1eb591304f2f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650839e81cb91da423705415d9528039') in 0.002174 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.477121 seconds.
-  path: Assets/Plugins/NPBehave/Scripts/Task
-  artifactKey: Guid(6f3bfdbdf27792e408942180955e17f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Scripts/Task using Guid(6f3bfdbdf27792e408942180955e17f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76898b0306a030152a26cd187dcde531') in 0.002318 seconds 
+  Time since last request: 2.025694 seconds.
+  path: Assets/Plugins/NPBehave/Scripts/Composite/Composite.cs
+  artifactKey: Guid(0a44151c879308844a53a536df8e65d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/NPBehave/Scripts/Composite/Composite.cs using Guid(0a44151c879308844a53a536df8e65d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab513ca8365e50c55bc56005d33a2192') in 0.001845 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.280990 seconds.
-  path: Assets/Plugins/NPBehave/Scripts/Task/Action.cs
-  artifactKey: Guid(60b2bb735902238468ef689016b5599b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Scripts/Task/Action.cs using Guid(60b2bb735902238468ef689016b5599b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5ef9da9ed98becc048d8ca2f1e2b0f') in 0.008618 seconds 
+  Time since last request: 8.920478 seconds.
+  path: Assets/Plugins/NPBehave/Scripts/Decorator/Observer.cs
+  artifactKey: Guid(1d4241a3c72856d439390dc63a2241ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/NPBehave/Scripts/Decorator/Observer.cs using Guid(1d4241a3c72856d439390dc63a2241ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '898a4ca09222f46bef770c7abfa9189b') in 0.002165 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1725.755656 seconds.
-  path: Assets/Plugins/NPBehave/Scripts/Composite
-  artifactKey: Guid(356af4228898dc142b85e05cb28601b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Scripts/Composite using Guid(356af4228898dc142b85e05cb28601b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669910dfca61148e9518ddd8802be1b6') in 0.002286 seconds 
+  Time since last request: 1.700365 seconds.
+  path: Assets/Plugins/NPBehave/Scripts/Decorator/ObservingDecorator.cs
+  artifactKey: Guid(099249f46c643f14e920842a5d67d8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/NPBehave/Scripts/Decorator/ObservingDecorator.cs using Guid(099249f46c643f14e920842a5d67d8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5871d38963fd6e915bea56ab3778d3d7') in 0.002198 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.338662 seconds.
-  path: Assets/Plugins/NPBehave/Scripts/Root.cs
-  artifactKey: Guid(796afd9c074811f4a878664dfa90a5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Scripts/Root.cs using Guid(796afd9c074811f4a878664dfa90a5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bec4eece50c70181e212e8ef969a272') in 0.002125 seconds 
+  Time since last request: 2.824464 seconds.
+  path: Assets/Plugins/NPBehave/Scripts/Decorator/Decorator.cs
+  artifactKey: Guid(8761de622493cfb40a0aaf63f8750d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/NPBehave/Scripts/Decorator/Decorator.cs using Guid(8761de622493cfb40a0aaf63f8750d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1dd691766e659b428d739d042ee6bc') in 0.002088 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.572520 seconds.
-  path: Assets/Plugins/NPBehave/Scripts/Operator.cs
-  artifactKey: Guid(8d0b871b8672f0949ab809e7ab410033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Scripts/Operator.cs using Guid(8d0b871b8672f0949ab809e7ab410033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623959331bfe5f177e530952177c80a7') in 0.002448 seconds 
+  Time since last request: 1.262461 seconds.
+  path: Assets/Plugins/NPBehave/Scripts/Decorator/Cooldown.cs
+  artifactKey: Guid(cb72376a1a2abf247bed6dc8d39aeb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/NPBehave/Scripts/Decorator/Cooldown.cs using Guid(cb72376a1a2abf247bed6dc8d39aeb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a769f433f316845fdb663d1b8681ff2f') in 0.002301 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.121538 seconds.
-  path: Assets/Plugins/NPBehave/Scripts/Node.cs
-  artifactKey: Guid(b3782faa104f5ed49a75576e02da6265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Scripts/Node.cs using Guid(b3782faa104f5ed49a75576e02da6265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa1d9564d6c4ec0268ece07176a72c9') in 0.002111 seconds 
+  Time since last request: 1.043325 seconds.
+  path: Assets/Plugins/NPBehave/Scripts/Decorator/WaitForCondition.cs
+  artifactKey: Guid(4630b1a9fa8de4f429db6326998924b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/NPBehave/Scripts/Decorator/WaitForCondition.cs using Guid(4630b1a9fa8de4f429db6326998924b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f00678951a682be8e2789a81013cbcb') in 0.002183 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.780611 seconds.
-  path: Assets/Plugins/NPBehave/Scripts/Blackboard.cs
-  artifactKey: Guid(59c064ff8fa51474983289f50913c891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Scripts/Blackboard.cs using Guid(59c064ff8fa51474983289f50913c891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b4d1f20ffe2cc647e3e3b390cfc18f') in 0.002246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.051130 seconds.
-  path: Assets/Plugins/NPBehave/Scripts/Clock.cs
-  artifactKey: Guid(2cfeb4ae994485c4883ccd66ff96c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Scripts/Clock.cs using Guid(2cfeb4ae994485c4883ccd66ff96c88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7168dde3cd471c5b18f0f27d0f896eee') in 0.002408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.725420 seconds.
-  path: Assets/Plugins/NPBehave/Scripts/Container.cs
-  artifactKey: Guid(58193dcfbb0196643a1f855a553456c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Scripts/Container.cs using Guid(58193dcfbb0196643a1f855a553456c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb93e906182abf54ef08d99d3ed6ed7') in 0.002349 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.210936 seconds.
-  path: Assets/Plugins/NPBehave/Scripts/Debugger.cs
-  artifactKey: Guid(f6da4850b2fd39d4b9cf65e1917d7fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Scripts/Debugger.cs using Guid(f6da4850b2fd39d4b9cf65e1917d7fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1119531c0fc0d2bcd2fea1e0b45aee2f') in 0.002931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.679268 seconds.
-  path: Assets/Plugins/NPBehave/Scripts/Exception.cs
-  artifactKey: Guid(ca82d234eed46e3478ac3ccc82b6aa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Scripts/Exception.cs using Guid(ca82d234eed46e3478ac3ccc82b6aa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0972bd6d55d60566349c0079f2910a48') in 0.002246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.874589 seconds.
-  path: Assets/Plugins/NPBehave/Scripts/Stops.cs
-  artifactKey: Guid(b732deef6a07ce14da2c6876dc2820c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Scripts/Stops.cs using Guid(b732deef6a07ce14da2c6876dc2820c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c35980ea333b56f2a95ec1b4a2f2b6') in 0.002185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.464182 seconds.
-  path: Assets/Plugins/NPBehave/Scripts/UnityContext.cs
-  artifactKey: Guid(72b20052819c3c94ebce029c919e7a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Scripts/UnityContext.cs using Guid(72b20052819c3c94ebce029c919e7a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c1a09032832d80e1891e94a666a22b') in 0.002290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.161802 seconds.
-  path: Assets/Plugins/NPBehave/Examples/Scenes
-  artifactKey: Guid(18a87ca9e957249769655a5e3b1f0727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Examples/Scenes using Guid(18a87ca9e957249769655a5e3b1f0727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3120f3bc06eb26f654773ea1269dc9df') in 0.002684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.750493 seconds.
-  path: Assets/Plugins/NPBehave/Examples/Scenes/NPBehaveExample_ClockThrottling.unity
-  artifactKey: Guid(40366d0c2d5aa4ae5a0a167fd3485f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Examples/Scenes/NPBehaveExample_ClockThrottling.unity using Guid(40366d0c2d5aa4ae5a0a167fd3485f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6949e638db8b1789aa8a9b607310764d') in 0.002195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.481139 seconds.
-  path: Assets/Plugins/NPBehave/Examples/Scenes/NPBehaveExample_HelloBlackboardsAI.unity
-  artifactKey: Guid(93ff234ca0d894893bb779db42f48853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Examples/Scenes/NPBehaveExample_HelloBlackboardsAI.unity using Guid(93ff234ca0d894893bb779db42f48853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae87f806356064fb5d99753fbf3bc9b1') in 0.002234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.118959 seconds.
-  path: Assets/Plugins/NPBehave/Examples/Scenes/NPBehaveExample_HelloWorldAI.unity
-  artifactKey: Guid(45bd4535adeb74f72859eb1ac6bdd5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Examples/Scenes/NPBehaveExample_HelloWorldAI.unity using Guid(45bd4535adeb74f72859eb1ac6bdd5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7405824b149e90d6cabe9f099a5874b7') in 0.002315 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003402 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\unity hub\PlayerTest\Personal-attempt\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.720 seconds
-Domain Reload Profiling:
-	ReloadAssembly (720ms)
-		BeginReloadAssembly (99ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (578ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (225ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (154ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1617 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.6 MB.
-System memory in use after: 72.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2066.
-Total: 2.203400 ms (FindLiveObjects: 0.117500 ms CreateObjectMapping: 0.038300 ms MarkObjects: 2.028300 ms  DeleteObjects: 0.018500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 26.159117 seconds.
-  path: Assets/Plugins/NPBehave/Examples/Scripts/NPBehaveExampleNavMoveToEnemy.cs
-  artifactKey: Guid(7dac4a0db6a8542e2ac8f18a1920cb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Examples/Scripts/NPBehaveExampleNavMoveToEnemy.cs using Guid(7dac4a0db6a8542e2ac8f18a1920cb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3917dff5b8437c9b63dc318a322565ab') in 0.004486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.525757 seconds.
-  path: Assets/Plugins/NPBehave/Examples/Scripts/NPBehaveExampleSwarmEnemyAI.cs
-  artifactKey: Guid(0a2c7b68b52fc4093afea717109d3f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Examples/Scripts/NPBehaveExampleSwarmEnemyAI.cs using Guid(0a2c7b68b52fc4093afea717109d3f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622a1b16653dd0ea1b627e5737f563e3') in 0.002158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.052545 seconds.
-  path: Assets/Plugins/NPBehave/Examples/Scripts/ReusableSubtrees
-  artifactKey: Guid(8403b7fb8f4f84b0b8b471c287d514be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Examples/Scripts/ReusableSubtrees using Guid(8403b7fb8f4f84b0b8b471c287d514be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137c5da1485fea634ee60b6e05d90fd3') in 0.002052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.743647 seconds.
-  path: Assets/Plugins/NPBehave/Examples/Scripts/ReusableSubtrees/EnemyB.cs
-  artifactKey: Guid(36d3b032f614c41ff81747d432c8998b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Examples/Scripts/ReusableSubtrees/EnemyB.cs using Guid(36d3b032f614c41ff81747d432c8998b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf420487a1a1e1b9e1c963e5c291639') in 0.002212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.717509 seconds.
-  path: Assets/Plugins/NPBehave/Examples/Scripts/ReusableSubtrees/EnemyA.cs
-  artifactKey: Guid(923c71e4a861243b9be1ab54c23fca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/NPBehave/Examples/Scripts/ReusableSubtrees/EnemyA.cs using Guid(923c71e4a861243b9be1ab54c23fca55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6721af9aaef7bcea7ab4764956e8688') in 0.002159 seconds 
+  Time since last request: 1.944028 seconds.
+  path: Assets/Plugins/NPBehave/Scripts/Decorator/TimeMin.cs
+  artifactKey: Guid(b71c5d5423f4dfd4cb770727a0e3081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/NPBehave/Scripts/Decorator/TimeMin.cs using Guid(b71c5d5423f4dfd4cb770727a0e3081f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61427681d1f5b505c7ddf3f9b8787f02') in 0.001983 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
