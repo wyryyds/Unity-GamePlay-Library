@@ -105,6 +105,7 @@
     <Compile Include="Assets\Scripts\ProjectBase\Event\EventCenter.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Input\InputMgr.cs" />
     <Compile Include="Assets\Scripts\ProjectBase\Pool\PoolMgr.cs" />
+    <Compile Include="Assets\Scripts\Math\GetFrustumVertices.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
